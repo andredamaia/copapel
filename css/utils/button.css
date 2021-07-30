@@ -1,0 +1,23 @@
+.button-catalogo {
+    border: 1px solid transparent;
+    border-radius: 50px;
+    width: 100%;
+    text-align: center;
+    background: #89cc39;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 1.8rem;
+    padding: 1rem;
+    text-decoration: none;
+    line-height: 2rem;
+    text-transform: uppercase;
+    transition: all .3s ease-in-out;
+}
+
+.button-catalogo:hover {
+    background: #ffffff;
+    color: #89cc39;
+    border: 1px solid #89cc39;
+}
+
+.button-catalogo strong { font-weight: 800;}

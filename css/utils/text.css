@@ -1,0 +1,64 @@
+h1 {
+    /* background: rgb(37,138,92);
+    background: linear-gradient(90deg, rgba(37,138,92,1) 33%, rgba(69,160,81,1) 66%, rgba(89,174,75,1) 100%); */
+    font-size: 3.6rem;
+    line-height: 3.8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+
+    background: -webkit-linear-gradient(0deg, rgba(37,138,92,1) 33%, rgba(69,160,81,1) 66%, rgba(89,174,75,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 3rem;
+}
+
+p {
+    font-size: 1.7rem;
+    line-height: 2.9rem;
+    color: #4d4d4d;
+    font-weight: 500;
+    margin-bottom: 3rem;
+}
+
+.text-light-blue {
+    font-size: 1.7rem;
+    line-height: 2.9rem;
+    color: #006660;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 3.6rem;
+    font-weight: 800;
+    line-height: 4.3rem;
+    color: #71bf44;
+    text-transform: uppercase;
+    margin-bottom: 6rem;
+}
+
+.subtitle {
+    display: block;
+    font-size: 2.6rem;
+    line-height: 4.5rem;
+    color: #7db13c;
+    font-weight: 500;
+    margin-bottom: 2.5rem;
+}
+
+h3 {
+    font-size: 4.3rem;
+    line-height: 4.3rem;
+    color: #89cc39;
+    margin-bottom: 2rem;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+h4 {
+    display: block;
+    font-size: 2.6rem;
+    line-height: 4.5rem;
+    color: #7db13c;
+    font-weight: 500;
+    margin-bottom: 2rem;
+}
