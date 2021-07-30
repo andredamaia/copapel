@@ -1,0 +1,115 @@
+.institucional-banner {
+    padding: 6rem 0 0;
+}
+
+.institucional-banner ul li {
+    font-weight: 500;
+}
+
+.institucional-banner strong {
+    font-weight: 800;
+}
+
+.allia {
+    margin-top: 4rem;
+}
+
+.img-left {
+    position: relative;
+}
+
+.img-left img {
+    position: absolute;
+    max-width: 100%;
+}
+
+.sombra {
+    top: 225px;
+    right: 125px;
+    max-width: 100%;
+}
+
+
+
+.propostas-description {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-size: 1.7rem;
+    line-height: 2.4rem;
+    margin-bottom: 3rem;
+}
+
+.propostas-description img {
+    width: 3rem;
+    margin-right: 2rem;
+}
+
+.propostas-description div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.marcas-empresa {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    padding: 6rem 0;
+}
+
+.marcas-empresa div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.higiene-saude {
+    padding: 5rem 0;
+}
+
+.higiene-saude p {
+    font-weight: 600;
+}
+
+.higiene-livros {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 1rem;
+    margin-bottom: 3rem;
+}
+
+.higiene-livros div {
+    width: 100%;
+    text-align: center;
+}
+
+.higiene-livros div img {
+    width: 100%;
+}
+
+.higiene-livros div span {
+   display: block;
+   font-size: 1.6rem;
+   line-height: 1.9rem;
+   color: #eca032;
+   font-weight: 500;
+}
+
+.img-sombra {
+    position: relative;
+}
+
+.sombra-down {
+    position: absolute;
+    top: -75px;
+    right: 100px;
+    max-width: 100%;
+}
+
+.big-book {
+    max-width: 100%;
+    position: relative;
+    z-index: 10;
+}

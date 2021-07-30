@@ -43,6 +43,7 @@
 
 .area-white {
     padding: 6rem 0;
+    overflow: hidden;
 }
 
 .anos {
@@ -75,9 +76,13 @@
     content: '';
     top: 6px;
     left: 0;
-    width: 100%;
+    width: 200%;
     height: 3px;
     background: #e9e9e9;
+}
+
+.anos:last-child .line::after {
+    width: 100%;
 }
 
 .line span {
@@ -88,6 +93,13 @@
     border-radius: 50%;
     display: block;
     z-index: 10;
+}
+
+.timeline {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .time-description {
