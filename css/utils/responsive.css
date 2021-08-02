@@ -1,0 +1,260 @@
+@media (max-width: 769px) {
+    img {
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 2.4rem;
+        line-height: 3rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .banner-description {
+        padding: 3rem 1rem;
+        margin-bottom: 0;
+    }
+
+    p {
+        font-size: 1.5rem;
+        line-height: 2.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .text-light-blue {
+        font-size: 1.4rem;
+        line-height: 2.5rem;
+    }
+
+    .mapa-mundi {
+        position: relative;
+    }    
+
+    .videos-copapel {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .videos-copapel div a {
+        font-size: 1.4rem;
+    }
+
+    .area-white {
+        padding: 3rem 1rem;
+    }
+
+    .time-description span {
+        font-size: 4rem;
+    }
+
+    .ideais {
+        padding: 3rem 1rem 6rem;
+    }
+
+    h2 {
+        font-size: 2.4rem;
+        line-height: 3rem;
+        margin-bottom: 2rem;
+    }
+
+    .subtitle {
+        font-size: 2rem;
+        line-height: 3rem;
+        margin-bottom: 1rem;
+    }
+
+    .ideais-list {
+        flex-direction: column;
+    }
+
+    .videos-copapel div a {
+        font-size: 1.4rem;
+    }
+
+    .img-coracao {
+        position: relative;
+    }
+
+    .img-coracao img {
+        position: relative;
+        width: 100%;
+        top: 0;
+        left: 0;
+        right: 0;
+        margin-top: -80px;
+    }
+
+    .green-box {
+        padding: 0rem 10px 3rem;
+    }
+
+    .motivacional::after {
+        width:  0;
+    }
+
+    .motivacional-description {
+        padding: 0 0 2rem;
+    }
+
+    .motivacional-description strong {
+        font-size: 1.7rem;
+        line-height: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    .motivacional-videos img {
+        width: 100%;
+        margin-bottom:  1rem;
+    }
+
+    .nossos-numeros {
+        padding: 3rem 1rem;
+    }
+
+    .up-box {
+        grid-template-columns: 1fr 1fr;
+        padding-bottom: 2rem;
+    }
+
+    .our-numbers::after {
+        display: none;
+    }
+
+    .up-box::after {
+        display: none;
+    }
+
+    .down-infos::after {
+        display: none;
+    }
+
+    .up-box div {
+        flex-direction: column;
+        margin-bottom: 2rem;
+    }
+
+    .up-box div strong {
+        font-size: 4rem;
+        margin: 0;
+    }
+
+    .down-infos {
+        grid-template-columns: 1fr;
+    }
+
+    .infos-numbers {
+        padding-top: 0;
+    }
+    
+    .infos-numbers span {
+        font-size: 1.4rem;
+        line-height: 1.6rem;
+    }
+
+    .infos-numbers div {
+        margin-bottom: 0;
+    }
+
+    .infos-numbers div strong {
+        font-size: 3.5rem;
+    }
+
+    .infos-numbers div img {
+        top: 15px;
+        left: -45px;
+        width: 40px;
+    }
+
+    h3 {
+        font-size: 3rem;
+        line-height: 3rem;
+    }
+    
+    .triangulo {
+        bottom: -20px;
+        left: 5rem;
+        width: 40px;
+    }
+
+    .unidades {
+        height: 80rem;
+    }
+
+    .unidades span {
+        font-size: 2rem;
+        line-height: 2.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .cidades {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin-top: 2rem;
+    }
+
+    .cidades div {
+        flex-direction: column; 
+    }
+
+    .cidades a {
+        font-size: 1.4rem;
+        line-height: 2rem;
+    }
+
+    .cidades div {
+        text-align: center;
+    }
+    
+    .mapa-sc {
+        top: 360px;
+    }
+
+    .locais-sede::after {
+        width: 100%;
+    }
+
+    .unidades-description {
+        padding: 3rem 1rem;
+    }  
+
+    .unidades-description span {
+        font-size: 2.7rem;
+        line-height: 2rem;
+        margin-bottom: 1.5rem;
+    }  
+
+    .locais-sede {
+        margin-bottom: 1.5rem;
+        padding-bottom: 1.5rem;
+    }
+
+    .clientes {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .slider-description {
+        padding: 3rem 1rem 0;
+    }
+
+    h4 {
+        font-size:  2rem;
+        line-height: 3rem;
+        margin-bottom: 1rem;
+    }
+
+    .catalogo-itens {
+        padding: 0 1rem 3rem;
+        text-align: center;
+    }
+
+    .left-side p {
+        font-size: 1.5rem;
+    }
+
+    .button-catalogo {
+        font-size: 1.5rem;
+        margin-bottom: 2.5rem;
+    }
+    
+}
