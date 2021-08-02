@@ -4,3 +4,5 @@
 
 @import './pages/index.css';
 @import './pages/institucional.css';
+
+@import './utils/responsive.css';
