@@ -1,4 +1,3 @@
-
 .banner-principal {
     padding: 0 0 4rem 0;
 }
@@ -22,7 +21,7 @@
 
 .video {
     width: 100%;
-    height: 10rem;
+    height: 12rem;
     border-radius: 7px;
     overflow: hidden;
     margin-bottom: 1.5rem;
@@ -56,12 +55,14 @@
     overflow: hidden;
     margin-bottom: 1.5rem;
     border-radius: 10px;
+    border: 1px solid #f1f1f1;
 }
 
 .anos figure img {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    transform: scale(1.02)
 }
 
 .line {
@@ -82,7 +83,7 @@
 }
 
 .anos:last-child .line::after {
-    width: 100%;
+    width: 200%;
 }
 
 .line span {
@@ -107,7 +108,7 @@
 }
 
 .time-description span {
-    font-size: 8rem;
+    font-size: 6rem;
     color: #71bf44;
     font-weight: 300;
     display: block;
@@ -206,8 +207,8 @@
     width: 43rem;
     z-index: 100;
     position: absolute;
-    top: -70px;
-    left: -80px;
+    top: -92px;
+    left: 0;
 }
 
 .nossos-numeros {
@@ -385,7 +386,7 @@
     transition: all .3s ease-in-out;
 }
 
-.cidades a:hover {
+.cidades a:hover, .cidades a.active {
   color: #007169;
   background: #89cc39;
   border-radius: 5px;
@@ -537,4 +538,46 @@
 
 .right-side img {
     width: 100%;
+}
+
+.timeline {
+    position: relative;
+}
+
+.timeline:before {
+    content: '';
+    height: 100%;
+    background: rgb(255,255,255);
+    background: linear-gradient(100deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 80%);
+    width: 20%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+.timeline:after {
+    content: '';
+    height: 100%;
+    background: rgb(255,255,255);
+    background: linear-gradient(260deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 80%);
+    width: 20%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 10;
+}
+
+.swiper-container-horizontal>.swiper-scrollbar {
+    position: relative;
+    top: 0;
+    left: 0;
+    margin-bottom: 100px;
+    margin-top: 10px;
+}
+
+.swiper-scrollbar-drag {
+    background: rgb(113 191 68);
+    height: 10px;
+    top: -2px;
 }
