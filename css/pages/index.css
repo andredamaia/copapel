@@ -1,3 +1,82 @@
+.menu {
+    max-width: 1250px;
+    margin: auto;
+}
+
+.menu-links {
+    display: flex;
+}
+
+.menu-links a {
+    color: #fff;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    line-height: 50px;
+    height: 50px;
+    display: inline-block;
+    text-align: center;
+    background: #549f9a;
+    transition: all .3s ease-in-out;
+    text-decoration: none;
+    font-weight: 500;
+    width: 50%;
+    position: relative;
+}
+
+.menu-links a.active::after {
+    content: '';
+    width: 0;
+    height: 0;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    border-top: 7px solid #1c7f78;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.menu-links a.active {
+    background: #1c7f78;
+}
+
+.menu-sublinks {
+    background: #f2f2f2;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-sublinks a {
+    font-size: 1.4rem;
+    color: #787878;
+    display: inline-block;
+    margin: 0 3rem;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.menu-sublinks a:hover, .menu-sublinks a.active, .menu-sublinks a:focus {
+    text-decoration: underline;
+}
+
+.menu-sublinks a::after {
+    content: '';
+    height: 2rem;
+    width: 1px;
+    background: #787878;
+    position: absolute;
+    top: 0;
+    right: -3rem;
+}
+
+.menu-sublinks a:last-child::after {
+    display: none;
+}
+
 .banner-principal {
     padding: 0 0 4rem 0;
 }
@@ -120,7 +199,7 @@
 }
 
 .ideais {
-    background: url('/images/bg-ideais-2.jpg') center center no-repeat;
+    background: url('../../images/bg-ideais-2.jpg') center center no-repeat;
     background-size: cover;
     padding: 7rem 0;
 }
@@ -146,6 +225,8 @@
 
 .motivacional {
     position: relative;
+    max-width: 1250px;
+    margin: auto;
     background: rgb(108,178,66);
     background: linear-gradient(90deg, rgba(108,178,66,1) 33%, rgba(125,177,60,1) 66%, rgba(124,177,60,1) 100%);
 }
@@ -171,7 +252,7 @@
 }
 
 .motivacional-description {
-    padding: 7rem 7rem 7rem 10rem;
+    padding: 5rem 5rem 5rem 16rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -197,18 +278,20 @@
     flex-direction: column;
     justify-content: center;
     height: 100%;
+    padding: 3rem 0;
 }
 
 .motivacional-videos img {
-    width: 80%;
+    max-width: 16rem;
 }
 
-.img-coracao img {
-    width: 43rem;
+.img-coracao {
     z-index: 100;
     position: absolute;
-    top: -92px;
+    top: 0;
+    bottom: 0;
     left: 0;
+    margin: auto;
 }
 
 .nossos-numeros {
@@ -263,8 +346,9 @@
     font-size: 7.2rem;
     line-height: 2.7rem;
     color: #006f67;
-    font-weight: 800;
+    font-weight: 700;
     margin: 0 2rem;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .up-box div span {
@@ -316,9 +400,10 @@
 .infos-numbers div strong {
     font-size: 5.6rem;
     color: #006f67;
-    font-weight: 800;
+    font-weight: 700;
     position: relative;
     letter-spacing: -4px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .infos-numbers span {
@@ -333,8 +418,8 @@
 
 .infos-numbers div img {
     position: absolute;
-    top: 3rem;
-    left: -60px;
+    top: 2rem;
+    left: -55px;
 }
 
 .unidades {
@@ -343,12 +428,19 @@
     background: #007169;
     padding: 5rem 0;
     position: relative;
+    max-width: 1250px;
+    margin: auto;
 }
 
 .triangulo {
     position: absolute;
     bottom: -20px !important;
     left: 14rem;
+}
+
+.gps {
+    max-width: 1250px;
+    margin: auto;
 }
 
 .unidades span {
@@ -468,7 +560,7 @@
     flex-direction: row;
     justify-content: flex-start;
     align-items: flex-start;
-    width: 80%;
+    width: 100%;
 }
 
 .cliente-video {
@@ -524,6 +616,11 @@
     padding: 6rem 0;
 }
 
+.catalogo-itens h2 {
+    text-align: center;
+    font-size: 3rem;
+}
+
 .left-side {
     display: flex;
     flex-direction: column;
@@ -533,7 +630,7 @@
 }
 
 .left-side p {
-    font-size: 2.4rem;
+    font-size: 2.2rem;
 }
 
 .right-side img {
@@ -548,7 +645,7 @@
     content: '';
     height: 100%;
     background: rgb(255,255,255);
-    background: linear-gradient(100deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 80%);
+    background: linear-gradient(100deg, rgba(255,255,255,1) 25%, rgba(255,255,255,0) 80%);
     width: 20%;
     position: absolute;
     top: 0;
@@ -560,7 +657,7 @@
     content: '';
     height: 100%;
     background: rgb(255,255,255);
-    background: linear-gradient(260deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 80%);
+    background: linear-gradient(270deg, rgba(255,255,255,1) 25%, rgba(255,255,255,0) 100%);
     width: 20%;
     position: absolute;
     top: 0;
@@ -580,4 +677,24 @@
     background: rgb(113 191 68);
     height: 10px;
     top: -2px;
+}
+
+.swiper-clients .swiper-slide {
+    width: 80% !important;
+}
+
+.clients {
+    position: relative;
+}
+
+.clients:after {
+    content: '';
+    height: 100%;
+    background: rgb(255,255,255);
+    background: linear-gradient(270deg, rgba(255,255,255,1) 25%, rgba(255,255,255,0) 100%);
+    width: 20%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 10;
 }
