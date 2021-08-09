@@ -432,6 +432,10 @@
     margin: auto;
 }
 
+.unidade {
+    display: none;
+}
+
 .triangulo {
     position: absolute;
     bottom: -20px !important;

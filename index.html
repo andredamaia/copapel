@@ -21,19 +21,19 @@
 
                 <div>
                     <div class="menu-sublinks submenu-quem-somos">
-                        <a href="#">A Copapel</a>
-                        <a href="#">Linha do Tempo</a>
-                        <a href="#">Ideais</a>
-                        <a href="#">Números</a>
-                        <a href="#">Unidades</a>
-                        <a href="#">Clientes</a>
-                        <a href="#">Fornecedores</a>
+                        <a href="#a-copapel">A Copapel</a>
+                        <a href="#linha-do-tempo">Linha do Tempo</a>
+                        <a href="#ideais">Ideais</a>
+                        <a href="#numeros">Números</a>
+                        <a href="#unidades">Unidades</a>
+                        <a href="#clientes">Clientes</a>
+                        <a href="#fornecedores">Fornecedores</a>
                     </div>
 
                     <div class="menu-sublinks submenu-allia" style="display: none;">
-                        <a href="#">Allia</a>
-                        <a href="#">Proposta de Valor</a>
-                        <a href="#">Programas de Higiene e Saúde</a>
+                        <a href="#allia">Allia</a>
+                        <a href="#proposta-de-valor">Proposta de Valor</a>
+                        <a href="#programas-de-higiene-e-saude">Programas de Higiene e Saúde</a>
                     </div>
                 </div>
             </div>
@@ -50,7 +50,7 @@
         </div>
     </div>
 
-    <div class="area-intro area-section">
+    <div id="a-copapel" class="area-intro area-section">
         <div class="container">
             <div class="row">
                 <div class="col-12 col-md-6 col-xl-6">
@@ -68,9 +68,7 @@
                 </div>
 
                 <div class="col-12 col-md-6 col-xl-6">
-                    
                     <img src="images/mini-mapa.png" class="mapa-mundi" alt="" /> 
-                    
                 </div>
 
                 <div class="col-12">
@@ -140,7 +138,7 @@
         </div>
     </div>
 
-    <div class="area-white area-section">
+    <div id="linha-do-tempo" class="area-white area-section">
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -408,7 +406,7 @@
         </div>
     </div>
 
-    <div class="ideais area-section">
+    <div id="ideais" class="ideais area-section">
         <div class="container">
             <div class="row">
                 <div class="col-12 col-md-5 col-xl-5">
@@ -495,7 +493,7 @@
         </div>
     </div>
 
-    <div class="nossos-numeros area-section">
+    <div id="numeros" class="nossos-numeros area-section">
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -579,7 +577,7 @@
         </div>
     </div>
 
-    <div class="unidades area-section">
+    <div id="unidades" class="unidades area-section">
         <img src="images/triangulo.png" class="triangulo" alt="" /> 
         <div class="container">
             <div class="row">
@@ -592,9 +590,9 @@
                         <div>
                             <span>SC -</span>
 
-                            <a href="#" class="active">Joinville</a>
+                            <a href="#" data-unidade="joinville" class="active">Joinville</a>
 
-                            <a href="#">Blumenau</a>
+                            <a href="#" data-unidade="blumenau">Blumenau</a>
 
                             <a href="#">Palhoça</a>
 
@@ -626,9 +624,42 @@
 
     <div class="unidades-description area-section">
         <div class="container">
-            <div class="row">
+            <div class="row unidade unidade-joinville" style="display: flex;">
                 <div class="col-12 col-md-3 col-xl-3">
                     <span>Joinville</span>
+
+                    <p>Atende o planalto norte catarinense</p>
+                </div>
+
+                <div class="col-12 col-md-6 col-xl-6">
+                    <div class="locais-sede">
+                        <div>
+                            <strong>• Sede administrativa e Loja</strong>
+    
+                            <p>R. Blumenau, 1891 - América</p>
+                        </div>
+    
+                        <div>
+                            <strong>• Sede Logística e Showroom</strong>
+    
+                            <p>R. Dona Francisca, 2499 - Saguaçú</p>
+                        </div>
+                    </div>
+
+                    <div class="locais-sede horarios">
+                        <div>
+                            <strong>Horário de Funcionamento</strong>
+    
+                            <p>- Segunda à Sexta: 8h30 às 18h (sem fechar para o almoço)</p>
+                            <p>- Sábado: 08h às 12h</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row unidade unidade-blumenau">
+                <div class="col-12 col-md-3 col-xl-3">
+                    <span>Blumenau</span>
 
                     <p>Atende o planalto norte catarinense</p>
                 </div>
@@ -665,7 +696,7 @@
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3577.2903407853364!2d-48.852474684880974!3d-26.284686173633844!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94deb027d4138029%3A0x4e64e83b6d4ea819!2sCopapel%20-%20Higiene%20e%20Limpeza!5e0!3m2!1spt-BR!2sbr!4v1627615622104!5m2!1spt-BR!2sbr" width="100%" height="370" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
     </div>
 
-    <div class="area-white area-section">
+    <div id="clientes" class="area-white area-section">
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -769,7 +800,7 @@
         </div>
     </div>
 
-    <div class="catalogo-itens area-section">
+    <div id="fornecedores" class="catalogo-itens area-section">
         <div class="container">
             <div class="row">
                 <div class="col-12 col-md-4 col-xl-4">
@@ -825,6 +856,19 @@
             
             $('.menu-sublinks').css('display', 'none')
             $('.submenu-'+menu).fadeIn()
+        })
+
+        //Unidades Control
+        $('.cidades a').on('click', function(){
+            const unidade = $(this).data('unidade')
+
+            $('.cidades a').removeClass('active')
+            $(this).addClass('active')
+            
+            $('.unidade').css('display', 'none')
+            $('.unidade-'+unidade).css('display', 'flex')
+
+            return false;
         })
     </script>
 </body>
