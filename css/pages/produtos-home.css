@@ -1,0 +1,64 @@
+.produto-home {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.produto-home .produtos-description::after {
+    right: -22px;
+}
+
+.kits-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.kits-title h6 {
+    font-size: 3rem;
+    line-height: 3.7rem;
+    color: #71bf44;
+    font-weight: 800;
+}
+
+.kits-title a {
+    display: inline-block;
+    font-size: 2rem;
+    line-height: 3.7rem;
+    color: #007067;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 500;
+    transition: all .3s ease-in-out;
+}
+
+.kits-title a:hover {
+    opacity: .8;
+}
+
+.box-kit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-marcas { padding: 5rem 0;}
+
+.swiper-marcas .swiper-slide div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-button-prev, .swiper-button-next {
+    color: #000;
+    font-weight: 800;
+    border: 1px solid #b8b8b8;
+    border-radius: 50px;
+    font-weight: 900;
+    width: 3rem;
+    height: 3rem;
+}
+
+.swiper-button-prev::after, .swiper-button-next::after {
+    font-size: 10px;
+}

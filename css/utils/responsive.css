@@ -270,7 +270,7 @@
     }
 
     .institucional-banner {
-        padding: 3rem 1rem 0;
+        padding: 3rem 1rem;
     }
 
     h5 {
@@ -280,7 +280,7 @@
     }
 
     .higiene-livros {
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
         gap: 3rem;
     }
 
@@ -314,7 +314,6 @@
         grid-template-columns: 1fr 1fr;
         gap: 2rem;
         padding: 0 0 3rem;
-        margin: 6rem 0;
     }
 
     .marcas-empresa div img {

@@ -2,6 +2,17 @@
 @import './utils/text.css';
 @import './utils/button.css';
 
+@import './component/menu-categories.css';
+
+@import './pages/index.css';
+@import './pages/institucional.css';
+@import './pages/produtos-home.css';
+@import './pages/produtos-interna.css';
+
+@import './utils/base.css';
+@import './utils/text.css';
+@import './utils/button.css';
+
 @import './pages/index.css';
 @import './pages/institucional.css';
 

@@ -22,7 +22,7 @@ p {
 
 .text-light-blue {
     font-size: 1.7rem;
-    line-height: 2rem;
+    line-height: 2.9rem;
     color: #006660;
     font-weight: 700;
 }
@@ -69,4 +69,20 @@ h5 {
     line-height: 2.7rem;
     color: #aa3a76;
     margin-bottom: 2.5rem;
+}
+
+h6 {
+    font-size: 2.8rem;
+    font-weight: 600;
+    line-height: 3.1rem;
+    color: #249429;
+    margin: 2rem;
+    text-transform: uppercase;
+}
+
+.sidebar-title {
+    font-size: 2.8rem;
+    line-height: 3.1rem;
+    font-weight: 700;
+    text-transform: uppercase;
 }

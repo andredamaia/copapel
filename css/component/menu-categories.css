@@ -1,0 +1,294 @@
+.menu-internas {
+    margin-bottom: 2rem;
+}
+
+.categoria-menu {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.categoria-menu a  {
+    text-decoration: none;
+    opacity: .8;
+    transition: all .3s ease-in-out;
+}
+
+.categoria-menu a:hover {
+    opacity: 1;
+}
+
+.categoria-box {
+    width: 100%;
+    height: 6rem;
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    align-items: center;
+    padding: 0 1rem;
+}
+
+.categoria-box img { margin-right: 1.5rem;}
+
+.categoria-box p {
+    font-size: 1.1rem;
+    line-height: 1.3rem;
+    color: #ffffff;
+    margin-bottom: 0;
+}
+
+.page-infos span { 
+    padding: 0 3rem;
+    display: block;
+    margin-bottom: 3rem;
+}
+
+.page-infos span i, .page-infos span i a {
+    font-size: 1.3rem;
+    line-height: 1.7rem;
+    color: #000000;
+    text-decoration: none;
+    margin: 0 3px;
+    text-transform: uppercase;
+    opacity: .8;
+    transition: all .3s ease-in-out;
+}
+
+.page-infos span i a:hover {
+    opacity: 1;
+}
+
+.sidebar-header {
+    background: url(/images/bg-sidebar-higiene.png) right no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 19rem;
+    width: 100%;
+    padding: 1.5rem;
+}
+
+.list-title {
+    font-size: 1.7rem;
+    line-height: 3.1rem;
+    color: #249429;
+    margin-bottom: 0;
+    font-weight: 700;
+    padding: 5px 0 5px 1rem;
+    display: block;
+}
+
+.sidebar-list ul {
+    list-style: none;
+    padding: 0;
+    background: #e6eee7;
+    padding: 8px 0;
+}
+
+.sidebar-list ul li {
+    font-size: 1.3rem;
+    line-height: 3.1rem;
+    font-weight: 600;
+    color: #000000;
+    cursor: pointer;
+    padding: 0 1rem;
+    position: relative;
+    padding-top: 3px;
+}
+
+.sidebar-list ul li:hover {
+    background: #fff;
+}
+
+.sidebar-list ul li::after {
+    position: absolute;
+    content: "";
+    background: #c0c4c0;
+    width: 90%;
+    height: 1px;
+    bottom: 0;
+    left: 12px;
+}
+
+.produtos {
+    padding: 2rem;
+}
+
+.produtos-description {
+    position: relative;
+    margin-bottom: 5rem;
+    width: 90%;
+}
+
+.produtos-description::after {
+    content: '';
+    position: absolute;
+    right: -24px;
+    top: 30px;
+    border: 1px dashed #d2d2d2;
+    height: 325px;
+    opacity: .6;
+}
+
+.last-line::after { border: none;}
+
+.bg-product {
+    background: #fff;
+    width: 100%;
+    height: 25rem;
+    margin-bottom: 2rem;
+}
+
+.bg-product figure {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.bg-product figure img {
+    width: 85%;
+}
+
+.produtos-info {
+    text-align: center;
+}
+
+.produto-numero {
+    display: block;
+    font-style: italic;
+    font-size: 1.5rem;
+    line-height: 2.2rem;
+    color: #71bf45;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.produtos-info p {
+    display: block;
+    font-size: 1.4rem;
+    line-height: 2.2rem;
+    color: #007169;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.valores {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 2.5rem 0;
+}
+
+.preco-antigo {
+    text-decoration: line-through;
+    color: #2a2a2a;
+    font-size: 1.3rem;
+    margin-right: 1.5rem;
+}
+
+.valores .preco-novo {
+    font-size: 2rem;
+    color: #6dbc45;
+    text-transform: uppercase;
+}
+
+.botoes-adicionar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.botao-soma, .botao-subtracao {
+    cursor: pointer;
+}
+
+.adicionar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(2,114,103);
+    background: linear-gradient(90deg, rgba(2,114,103,1) 0%, rgba(39,140,90,1) 25%, rgba(91,175,75,1) 50%, rgba(110,189,69,1) 75%);
+    padding: 0.5rem 1.5rem;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    margin-left: -5px;
+    transition: all .3s ease-in-out;
+}
+
+.adicionar:hover {
+    opacity: .8;
+}
+
+.adicionar img {
+    margin-right: 1.5rem;
+}
+
+.adicionar p {
+    font-size: 1.1rem;
+    font-weight: 700;
+    line-height: auto;
+    text-transform: uppercase;
+    margin: 0;
+    color: #fff;
+}
+
+.quantidade {
+    border: 1px solid #cacaca;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0.5rem 1.2rem 0.5rem 1rem;
+    border-right: none;
+    border-radius: 0.3rem 0 0 0.3rem;
+    height: 3.2rem;
+}
+
+.numero-quantidade {
+    font-size: 1.6rem;
+    color: #565656;
+}
+
+.botoes-pagina {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0;
+}
+
+.botoes-pagina a {
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+    color: #000;
+    font-weight: 500;
+    text-decoration: none;
+    transition: all .3s ease-in-out;
+    display: inline-block;
+    padding: 2rem;
+    margin: 0 1rem;
+}
+
+.botoes-pagina a:hover {
+    background: #6dbc45;
+    border-radius: 0.5rem;
+    color: #fff;
+}
+
+#produtos-quimicos .sidebar-title, #produtos-quimicos .list-title {
+    color: #761248;
+}
+
+#produtos-quimicos .sidebar-list ul {
+    background: rgba(118, 18, 72, 0.07);
+}
+
