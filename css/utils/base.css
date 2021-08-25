@@ -30,6 +30,10 @@ body.pages-internas {
     align-items: center !important;
 } */
 
+.area-section .container {
+    max-width: 1100px;
+}
+
 .produtos-quimicos { 
     background: rgb(193,154,175);
     background: linear-gradient(135deg, rgba(193,154,175,1) 0%, rgba(191,154,174,1) 25%, rgba(185,153,171,1) 50%, rgba(184,153,170,1) 75%);

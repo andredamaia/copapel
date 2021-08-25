@@ -9,14 +9,50 @@
 
     <link rel="stylesheet" href="css/styles.css" />
 </head>
+
 <body>
+    <div class="menu">
+        <div class="container">
+            <div class="row">
+                <div class="menu-links">
+                    <a href="#" data-menu="quem-somos" class="active">Quem Somos</a>
+                    <a href="#" data-menu="allia">Allia</a>
+                </div>
+
+                <div>
+                    <div class="menu-sublinks submenu-quem-somos">
+                        <a href="#a-copapel">A Copapel</a>
+                        <a href="#linha-do-tempo">Linha do Tempo</a>
+                        <a href="#ideais">Ideais</a>
+                        <a href="#numeros">Números</a>
+                        <a href="#unidades">Unidades</a>
+                        <a href="#clientes">Clientes</a>
+                        <a href="#fornecedores">Fornecedores</a>
+                    </div>
+
+                    <div class="menu-sublinks submenu-allia" style="display: none;">
+                        <a href="#allia">Allia</a>
+                        <a href="#proposta-de-valor">Proposta de Valor</a>
+                        <a href="#programas-de-higiene-e-saude">Programas de Higiene e Saúde</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <div class="banner-principal">
         <div class="container">
             <div class="row">
                 <div class="col-12">
                     <img src="images/banner-principal.png" alt="" /> 
                 </div>
+            </div>
+        </div>
+    </div>
 
+    <div id="a-copapel" class="area-intro area-section">
+        <div class="container">
+            <div class="row">
                 <div class="col-12 col-md-6 col-xl-6">
                     <div class="banner-description">
                         <h1>Maior rede  de higiene <br/>e limpeza do mundo</h1>
@@ -32,9 +68,7 @@
                 </div>
 
                 <div class="col-12 col-md-6 col-xl-6">
-                    
                     <img src="images/mini-mapa.png" class="mapa-mundi" alt="" /> 
-                    
                 </div>
 
                 <div class="col-12">
@@ -104,7 +138,7 @@
         </div>
     </div>
 
-    <div class="area-white">
+    <div id="linha-do-tempo" class="area-white area-section">
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -115,6 +149,11 @@
                             <div class="swiper-scrollbar"></div>
 
                             <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="anos">
+                                    </div>
+                                </div>
+
                                 <div class="swiper-slide">
                                     <div class="anos">
                                         <figure>
@@ -354,6 +393,11 @@
                                         </div>
                                     </div>
                                 </div>
+
+                                <div class="swiper-slide">
+                                    <div class="anos">
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -362,7 +406,7 @@
         </div>
     </div>
 
-    <div class="ideais">
+    <div id="ideais" class="ideais area-section">
         <div class="container">
             <div class="row">
                 <div class="col-12 col-md-5 col-xl-5">
@@ -409,15 +453,11 @@
         </div>
     </div>
 
-    <div class="motivacional">
+    <div class="motivacional area-section">
         <div class="container">
             <div class="row">
                 <div class="col-12 col-md-2 col-xl-2">
-                    <div class="img-coracao">
-                        <figure>
-                            <img src="images/coracao-2.png" alt="" /> 
-                        </figure>
-                    </div>
+                    <img src="images/coracao-2.png" class="img-coracao" alt="" /> 
                 </div>
     
                 <div class="col-12 col-md-10 col-xl-10">
@@ -453,7 +493,7 @@
         </div>
     </div>
 
-    <div class="nossos-numeros">
+    <div id="numeros" class="nossos-numeros area-section">
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -537,7 +577,7 @@
         </div>
     </div>
 
-    <div class="unidades">
+    <div id="unidades" class="unidades area-section">
         <img src="images/triangulo.png" class="triangulo" alt="" /> 
         <div class="container">
             <div class="row">
@@ -550,9 +590,9 @@
                         <div>
                             <span>SC -</span>
 
-                            <a href="#" class="active">Joinville</a>
+                            <a href="#" data-unidade="joinville" class="active">Joinville</a>
 
-                            <a href="#">Blumenau</a>
+                            <a href="#" data-unidade="blumenau">Blumenau</a>
 
                             <a href="#">Palhoça</a>
 
@@ -582,16 +622,49 @@
         </div>
     </div>
 
-    <div class="unidades-description">
+    <div class="unidades-description area-section">
         <div class="container">
-            <div class="row">
+            <div class="row unidade unidade-joinville" style="display: flex;">
                 <div class="col-12 col-md-3 col-xl-3">
                     <span>Joinville</span>
 
                     <p>Atende o planalto norte catarinense</p>
                 </div>
 
-                <div class="col-12 col-md-5 col-xl-5 offset-md-1 offset-xl-1">
+                <div class="col-12 col-md-6 col-xl-6">
+                    <div class="locais-sede">
+                        <div>
+                            <strong>• Sede administrativa e Loja</strong>
+    
+                            <p>R. Blumenau, 1891 - América</p>
+                        </div>
+    
+                        <div>
+                            <strong>• Sede Logística e Showroom</strong>
+    
+                            <p>R. Dona Francisca, 2499 - Saguaçú</p>
+                        </div>
+                    </div>
+
+                    <div class="locais-sede horarios">
+                        <div>
+                            <strong>Horário de Funcionamento</strong>
+    
+                            <p>- Segunda à Sexta: 8h30 às 18h (sem fechar para o almoço)</p>
+                            <p>- Sábado: 08h às 12h</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row unidade unidade-blumenau">
+                <div class="col-12 col-md-3 col-xl-3">
+                    <span>Blumenau</span>
+
+                    <p>Atende o planalto norte catarinense</p>
+                </div>
+
+                <div class="col-12 col-md-6 col-xl-6">
                     <div class="locais-sede">
                         <div>
                             <strong>• Sede administrativa e Loja</strong>
@@ -623,29 +696,102 @@
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3577.2903407853364!2d-48.852474684880974!3d-26.284686173633844!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94deb027d4138029%3A0x4e64e83b6d4ea819!2sCopapel%20-%20Higiene%20e%20Limpeza!5e0!3m2!1spt-BR!2sbr!4v1627615622104!5m2!1spt-BR!2sbr" width="100%" height="370" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
     </div>
 
-    <div class="area-white">
+    <div id="clientes" class="area-white area-section">
         <div class="container">
             <div class="row">
                 <div class="col-12">
-
                     <h2 style="color: #006f67;">Nossos clientes</h2>
-                    
-                    <div class="clientes">
-                        <div class="cliente-video">
-                            <img src="images/video.jpg" alt="" /> 
-                        </div>
 
-                        <div class="slider-description">
-                            <span></span>
-
-                            <h4>Beto carrero world</h4>
-
-                            <i>"Nós fornecemos aos nossos clientes um material de qualidade, com menos desperdício e com otimização de custos e essa solução veio da parceria com a Copapel."</i>
-
-                            <div class="presidente">
-                                <strong>– Edilson Doubrawa </strong>
-
-                                <p>Diretor Administrativo Financeiro</p>
+                    <div class="clients">
+                        <div class="swiper-container swiper-clients">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="clientes">
+                                        <div class="cliente-video">
+                                            <img src="images/video.jpg" alt="" /> 
+                                        </div>
+                
+                                        <div class="slider-description">
+                                            <span></span>
+                
+                                            <h4>Beto carrero world</h4>
+                
+                                            <i>"Nós fornecemos aos nossos clientes um material de qualidade, com menos desperdício e com otimização de custos e essa solução veio da parceria com a Copapel."</i>
+                
+                                            <div class="presidente">
+                                                <strong>– Edilson Doubrawa </strong>
+                
+                                                <p>Diretor Administrativo Financeiro</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+    
+                                <div class="swiper-slide">
+                                    <div class="clientes">
+                                        <div class="cliente-video">
+                                            <img src="images/video.jpg" alt="" /> 
+                                        </div>
+                
+                                        <div class="slider-description">
+                                            <span></span>
+                
+                                            <h4>Beto carrero world</h4>
+                
+                                            <i>"Nós fornecemos aos nossos clientes um material de qualidade, com menos desperdício e com otimização de custos e essa solução veio da parceria com a Copapel."</i>
+                
+                                            <div class="presidente">
+                                                <strong>– Edilson Doubrawa </strong>
+                
+                                                <p>Diretor Administrativo Financeiro</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+    
+                                <div class="swiper-slide">
+                                    <div class="clientes">
+                                        <div class="cliente-video">
+                                            <img src="images/video.jpg" alt="" /> 
+                                        </div>
+                
+                                        <div class="slider-description">
+                                            <span></span>
+                
+                                            <h4>Beto carrero world</h4>
+                
+                                            <i>"Nós fornecemos aos nossos clientes um material de qualidade, com menos desperdício e com otimização de custos e essa solução veio da parceria com a Copapel."</i>
+                
+                                            <div class="presidente">
+                                                <strong>– Edilson Doubrawa </strong>
+                
+                                                <p>Diretor Administrativo Financeiro</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+    
+                                <div class="swiper-slide">
+                                    <div class="clientes">
+                                        <div class="cliente-video">
+                                            <img src="images/video.jpg" alt="" /> 
+                                        </div>
+                
+                                        <div class="slider-description">
+                                            <span></span>
+                
+                                            <h4>Beto carrero world</h4>
+                
+                                            <i>"Nós fornecemos aos nossos clientes um material de qualidade, com menos desperdício e com otimização de custos e essa solução veio da parceria com a Copapel."</i>
+                
+                                            <div class="presidente">
+                                                <strong>– Edilson Doubrawa </strong>
+                
+                                                <p>Diretor Administrativo Financeiro</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -654,7 +800,7 @@
         </div>
     </div>
 
-    <div class="catalogo-itens">
+    <div id="fornecedores" class="catalogo-itens area-section">
         <div class="container">
             <div class="row">
                 <div class="col-12 col-md-4 col-xl-4">
@@ -677,6 +823,7 @@
 
     <script type="module">
         import Swiper from 'https://unpkg.com/swiper/swiper-bundle.esm.browser.min.js'
+        import 'https://code.jquery.com/jquery-3.6.0.min.js'
 
         // Sliders
         const swiperTimeline = new Swiper('.swiper-timeline', {
@@ -690,6 +837,38 @@
                 el: ".swiper-scrollbar",
                 draggable: true,
             },
+        })
+
+        const swiperClients = new Swiper('.swiper-clients', {
+            direction: 'horizontal',
+            loop: true,
+            slidesPerView: "auto",
+            spaceBetween: 40,
+            speed: 400,
+        })
+
+        //Menu Control
+        $('.menu-links a').on('click', function(){
+            const menu = $(this).data('menu')
+
+            $('.menu-links a').removeClass('active')
+            $(this).addClass('active')
+            
+            $('.menu-sublinks').css('display', 'none')
+            $('.submenu-'+menu).fadeIn()
+        })
+
+        //Unidades Control
+        $('.cidades a').on('click', function(){
+            const unidade = $(this).data('unidade')
+
+            $('.cidades a').removeClass('active')
+            $(this).addClass('active')
+            
+            $('.unidade').css('display', 'none')
+            $('.unidade-'+unidade).css('display', 'flex')
+
+            return false;
         })
     </script>
 </body>

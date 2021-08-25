@@ -1,3 +1,9 @@
+@media (max-width: 1600px) {
+    .motivacional-description {
+        padding-left: 22rem;
+    }
+}
+
 @media (max-width: 769px) {
     img {
         width: 100%;

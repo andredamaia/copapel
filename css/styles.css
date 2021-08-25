@@ -9,4 +9,11 @@
 @import './pages/produtos-home.css';
 @import './pages/produtos-interna.css';
 
+@import './utils/base.css';
+@import './utils/text.css';
+@import './utils/button.css';
+
+@import './pages/index.css';
+@import './pages/institucional.css';
+
 @import './utils/responsive.css';
