@@ -256,5 +256,70 @@
         font-size: 1.5rem;
         margin-bottom: 2.5rem;
     }
+
+    /* ====== allia ======== */
+
+    .allia p {
+        margin-bottom: 1.5rem !important;
+    }
+
+    .institucional-banner {
+        padding: 3rem 1rem;
+    }
+
+    h5 {
+        font-size: 2.4rem;
+        line-height: 2rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .higiene-livros {
+        grid-template-columns: 1fr 1fr;
+        gap: 3rem;
+    }
+
+    .img-left img {
+        position: relative;
+        width: 100% !important;
+    }
+
+    .sombra {
+        top: -30px;
+        right: 40px;
+        width: 50%;
+    }
+
+    .center-mapa { 
+        text-align: left !important;
+        margin-bottom: 3rem;
+    }
+    
+    .center-mapa img {
+        position: absolute;
+        bottom: -180px;
+        width: 90%;
+    }
+
+    .institucional-banner strong {
+        margin-bottom: 1rem;
+    }
+
+    .marcas-empresa {
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+        padding: 0 0 3rem;
+    }
+
+    .marcas-empresa div img {
+        width: auto;
+    }
+
+    .higiene-saude {
+        padding: 2rem 0;
+    }
+
+    .sombra-down {
+        display: none;
+    }
     
 }

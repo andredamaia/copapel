@@ -1,6 +1,8 @@
 @import url('https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url('https://unpkg.com/swiper/swiper-bundle.min.css');
+
 
 * {
     margin: 0;
@@ -16,6 +18,58 @@ body {
     font-family: 'Raleway', sans-serif;
 }
 
+body.pages-internas {
+    background: #f5f5f5;
+}
+
 .container {
     max-width: 1250px;
+}
+
+/* .swiper-wrapper {
+    align-items: center !important;
+} */
+
+.produtos-quimicos { 
+    background: rgb(193,154,175);
+    background: linear-gradient(135deg, rgba(193,154,175,1) 0%, rgba(191,154,174,1) 25%, rgba(185,153,171,1) 50%, rgba(184,153,170,1) 75%);
+}
+
+.higiene-pessoal { 
+    background: rgb(83,184,90);
+    background: linear-gradient(135deg, rgba(83,184,90,1) 0%, rgba(68,168,73,1) 25%, rgba(59,159,66,1) 50%, rgba(48,143,53,1) 75%);
+}
+
+.equipamentos { 
+    background: rgb(155,213,214);
+    background: linear-gradient(135deg, rgba(155,213,214,1) 0%, rgba(155,213,214,1) 25%, rgba(154,211,212,1) 50%, rgba(153,206,208,1) 75%);
+}
+
+.nao-tecidos { 
+    background: rgb(247,209,158);
+    background: linear-gradient(135deg, rgba(247,209,158,1) 0%, rgba(246,206,157,1) 25%, rgba(246,201,155,1) 50%, rgba(246,200,155,1) 75%);
+}
+
+.maquinas { 
+    background: rgb(175,175,175);
+    background: linear-gradient(135deg, rgba(175,175,175,1) 0%, rgba(172,172,172,1) 25%, rgba(169,169,169,1) 50%, rgba(170,170,170,1) 75%);
+}
+
+.gerenciamento-residuos { 
+    background: rgb(177,163,154);
+    background: linear-gradient(135deg, rgba(177,163,154,1) 0%, rgba(175,162,154,1) 25%, rgba(170,159,153,1) 50%, rgba(169,159,152,1) 75%);
+}
+
+.tapetes { 
+    background: rgb(163,182,176);
+    background: linear-gradient(135deg, rgba(163,182,176,1) 0%, rgba(161,177,172,1) 25%, rgba(158,172,168,1) 50%, rgba(157,170,167,1) 75%);
+}
+
+.descartaveis { 
+    background: rgb(147,180,206);
+    background: linear-gradient(135deg, rgba(147,180,206,1) 0%, rgba(147,176,202,1) 25%, rgba(147,171,196,1) 50%, rgba(147,170,195,1) 75%);
+}
+
+.higiene-title {
+    color: #249429;
 }
