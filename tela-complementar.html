@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Copapel</title>
+
+    <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body class="pages-internas">
+    <div class="menu-internas">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="categoria-menu">
+                        <a href="#">
+                            <div class="categoria-box produtos-quimicos">
+                                <img src="images/produtos-quimicos.png" alt="">
+
+                                <p>Produtos<br/> Químicos</p>
+                            </div>
+                        </a>
+
+                        <a href="#">
+                            <div class="categoria-box higiene-pessoal">
+                                <img src="images/higiene-pessoal.png" alt="">
+
+                                <p>Higiene<br/> Pessoal</p>
+                            </div>
+                        </a>
+
+                        <a href="#">
+                            <div class="categoria-box equipamentos">
+                                <img src="images/equipamentos.png" alt="">
+
+                                <p>Equipamentos<br/> e Acessórios</p>
+                            </div>
+                        </a>
+
+                        <a href="#">
+                            <div class="categoria-box nao-tecidos">
+                                <img src="images/nao-tecidos.png" alt="">
+
+                                <p>Não Tecidos</p>
+                            </div>
+                        </a>
+
+                        <a href="#">
+                            <div class="categoria-box maquinas">
+                                <img src="images/maquinas.png" alt="">
+
+                                <p>Máquinas</p>
+                            </div>
+                        </a>
+
+                        <a href="#">
+                            <div class="categoria-box gerenciamento-residuos">
+                                <img src="images/gerenciamento-residuos.png" alt="">
+
+                                <p>Gerenciamento<br/> de resíduos</p>
+                            </div>
+                        </a>
+
+                        <a href="#">
+                            <div class="categoria-box tapetes">
+                                <img src="images/tapetes.png" alt="">
+
+                                <p>tapetes<br/> e barreiras<br/> de contenção</p>
+                            </div>
+                        </a>
+
+                        <a href="#">
+                            <div class="categoria-box descartaveis">
+                                <img src="images/luvas.png" alt="">
+
+                                <p>Descartáveis</p>
+                            </div>
+                        </a>
+
+                        <a href="#">
+                            <div class="categoria-box produtos-quimicos">
+                                <img src="images/produtos-quimicos.png" alt="">
+
+                                <p>Promo</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="page-complementar">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2>Cadastre-se ou faça o login</h2>
+
+                    <div class="box-form">
+                        <div class="row">                            
+                            <div class="col-12 col-md-5 col-xl-5">
+                                <div class="form-left-side">
+                                    <form action="post" class="form-highlight">
+                                        <strong>Quero criar uma conta</strong>
+            
+                                        <div class="highlight-input">
+                                            <label for="">E-mail</label>
+                                            <input type="text">
+                                        </div>
+            
+                                        <button class="button-green">Continuar</button>
+
+                                        <div class="button-down">
+                                            <span>Dúvidas? <a href="#">Fale conosco</a></span>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+
+                            <div class="col-12 col-md-7 col-xl-7">
+                                <div class="form-right-side">
+                                    <form action="post" class="form-highlight">
+                                        <strong>Já sou cliente</strong>
+            
+                                        <div class="highlight-input">
+                                            <label for="">E-mail, CPF ou CNPJ</label>
+                                            <input type="text">
+                                        </div>
+    
+                                        <div class="highlight-input">
+                                            <label for="">Senha</label>
+                                            <input type="password" name="password" id="password">
+                                            <i class="bi bi-eye-slash" id="togglePassword"></i>
+                                        </div>
+            
+                                        <button class="button-green">Continuar</button>
+    
+                                        <div class="button-down">
+                                            <span>Esqueci meu <a href="#">e-mail</a> ou a <a href="#">senha</a></span>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const togglePassword = document.querySelector('#togglePassword');
+        const password = document.querySelector('#password');
+
+        togglePassword.addEventListener('click', function (e) {
+            const type = password.getAttribute('type') === 'password' ? 'text' : 'password';
+            password.setAttribute('type', type);
+            this.classList.toggle('bi-eye');
+        });
+    </script>
+
+</body>
+</html>
+

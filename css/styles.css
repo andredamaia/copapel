@@ -8,6 +8,8 @@
 @import './pages/institucional.css';
 @import './pages/produtos-home.css';
 @import './pages/produtos-interna.css';
+@import './pages/tela-complementar.css';
+@import './pages/dados-pessoais.css';
 
 @import './utils/base.css';
 @import './utils/text.css';

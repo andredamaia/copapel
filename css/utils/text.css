@@ -86,3 +86,19 @@ h6 {
     font-weight: 700;
     text-transform: uppercase;
 }
+
+h3.text-green {
+    font-size: 3rem;
+    line-height: 3.8rem;
+    color: #71bf44;
+    font-weight: 800;
+    margin: 0 3rem;
+}
+
+h3.text-gray {
+    font-size: 3rem;
+    line-height: 3.8rem;
+    color: #8c8584;
+    font-weight: 800;
+    margin: 0 3rem;
+}

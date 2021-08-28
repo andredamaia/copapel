@@ -230,7 +230,7 @@
     text-transform: uppercase;
 }
 
-.match-toggle { margin: 20px 0; }
+.match-toggle { margin: 0; }
 .match-toggle.active .toggle-header i { transform: rotate(180deg); }
 .match-toggle.active .toggle-body { display: block; }
 
@@ -238,31 +238,40 @@
 .toggle-header { 
     color: #000; 
     cursor: pointer; 
-    padding: 0 10px;
-    background: url('../images/arrow-down.png') left center no-repeat;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    
+    padding: 2.5rem;
+    background: linear-gradient(180deg, rgba(237,237,237,1) 0%, rgba(239,239,239,1) 25%, rgba(242,242,242,1) 50%, rgba(243,243,243,1) 75%);
 }
-.match-toggle.active .toggle-header { background: url('../images/arrow-up.png') left center no-repeat;}
+.match-toggle.active .toggle-header { background: #eeeeee;}
 
 .match-toggle.active {transition: all .3s ease-in-out;}
 
-.toggle-header strong { 
-    font-size: 2.6rem;
-    line-height: 5.4rem;
-    color: #000;
-    font-weight: 800;
-    padding-left: 3rem;
+.toggle-header span { 
+    font-size: 1.3rem;
+    line-height: 2.2rem;
+    color: #5e5e5e;
+    font-weight: 600;
+    padding-left: 0;
+    display: block;
+    font-style: italic;
+    text-transform: uppercase;
 }
 
-.toggle-body { padding: 1.5rem 0; display: none; }
+.toggle-body { 
+    padding: 0 7rem 2.5rem 2.5rem; 
+    display: none;
+    font-size: 1.4rem;
+    line-height: 2.2rem;
+    background: linear-gradient(180deg, rgba(237,237,237,1) 0%, rgba(239,239,239,1) 25%, rgba(242,242,242,1) 50%, rgba(243,243,243,1) 75%);
+}
+
+.toggle-body p { 
+    margin-bottom: 0;
+}
 
 .aproveite-compre h6 {
     color: #71bf44;
     margin-bottom: 7rem;
+    margin-top: 7rem;
     font-size: 3rem;
     line-height: 3.7rem;
     font-weight: 800;
@@ -386,7 +395,8 @@
 
 .resultado p {
     font-size: 2.2rem;
-    color: #000000;
+    color: #545454;
+    margin-bottom: 1.5rem;
 }
 
 .resultado .total {
@@ -394,7 +404,7 @@
     font-weight: 900;
     line-height: 3.7rem;
     color: #71bf44;
-    margin-bottom: 2rem;
+    margin-bottom: 0;
 }
 
 .resultado .valor-total {
@@ -438,6 +448,12 @@
 
 .swiper-produtos-carrinho .swiper-slide {
     height: 100px !important;
+}
+
+.swiper-similares { overflow: hidden;}
+
+.swiper-similares .produtos-description::after {
+    right: -35px;
 }
 
 
