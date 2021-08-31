@@ -106,3 +106,12 @@
 .last-dados a img {
     margin-left: 1rem;
 }
+
+.cartoes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+

@@ -21,3 +21,25 @@
 }
 
 .button-catalogo strong { font-weight: 800;}
+
+.button-gray {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    height: 3rem;
+    line-height: 3rem;
+    background: #888888;
+    border-radius: 5px;
+    color: #ffffff;
+    padding: 0 1rem;
+    font-weight: 800;
+    transition: all .3s ease-in-out;
+}
+
+.button-gray:hover {
+    opacity: .8;
+    color: #888888;
+    background: #fff;
+    border: 1px solid #888888;
+}
