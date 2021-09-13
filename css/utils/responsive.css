@@ -4,6 +4,12 @@
     }
 }
 
+@media (max-width: 1300px) {
+    .products-section {
+        padding: 0 2rem;
+    }
+}
+
 @media (max-width: 769px) {
     img {
         width: 100%;
@@ -173,6 +179,19 @@
         font-size: 3rem;
         line-height: 3rem;
     }
+
+    h3.text-green {
+        font-size: 2rem;
+        line-height: 2.5rem;
+        margin: 0 1rem;
+    }
+
+    h3.text-gray  {
+        font-size: 2rem;
+        line-height: 2.5rem;
+        margin: 0 1rem;
+        text-align: toght;
+    }
     
     .triangulo {
         bottom: -20px;
@@ -327,5 +346,203 @@
     .sombra-down {
         display: none;
     }
+
+    .menu-internas {
+        display: none;
+    }
+
+    .page-infos span {
+        padding: 0 1.5rem;
+        margin: 3rem 0;
+    }
+
+    .sidebar-title {
+        font-size: 2rem;
+        line-height: 2.5rem;
+    }
+
+    .sidebar-header {
+        height: 10rem;
+    }
+
+    .sidebar-list ul {
+        margin: 1rem
+    }
+
+    h6 {
+        font-size: 2rem;
+        line-height: 2.5rem;
+        margin: 1rem;
+    }
+
+    .produtos-description::after {
+        display: none;
+    }
+
+    .produtos-description {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+
+    .bg-product {
+        height: 18rem;
+    }
+
+    .bg-product figure img {
+        width: 70%;
+    }
+
+    .quantidade {
+        width: 65%;
+    }
+
+    .produtos-info p {
+        font-size: 1.2rem;
+        line-height: 1.8rem;
+    }
+
+    .valores {
+        margin: 1.5rem 0;
+    }
+
+    .valores .preco-novo {
+        font-size: 1.7rem;
+    }
     
+    .swiper-marcas img { width: auto;}
+
+    .kits-title h6 {
+        font-size: 1.8rem;
+        line-height: 2rem;
+    }
+
+    .kits-title h6 img {
+        display: none;
+    }
+
+    .kits-title a {
+        font-size: 1.8rem;
+        line-height: 2rem;
+        text-align: right;
+    }
+
+    .kits-title {
+        margin: 2rem 0;
+    }
+
+    .swiper-marcas { margin: 2rem 0;}
+
+    figure.logo img {
+        margin-bottom: 2rem;
+        width: auto;
+    }
+
+    .login-perfil {
+        margin-top: 2rem;
+        justify-content: center;
+    }
+
+    .favorito a img { width: auto;}
+
+    .carrinho a img { width: auto;}
+
+    figure.logo {
+        justify-content: center;
+    }
+
+    .box-kit {
+        justify-content: center !important;
+    }
+
+    .box-kit img { 
+        width: auto;
+        margin-bottom: 2rem;
+    }
+
+    .carrinho-interna h6 img { width: 25px;}
+
+    .box-white-carrinho table tr td .bg-product {
+        height: 6rem;
+    }
+
+    .box-white-carrinho table tr th {
+        padding: 0 1rem;
+    }
+
+    .carrinho-total-preco .desconto img, .carrinho-total-preco .continuar-compra img {
+        width: 25px;
+    }
+
+    .table-valores {
+        padding: 0 1rem;
+    }
+
+    .lista-desejos .adicionar p {
+        line-height: 1.2rem;
+    }
+
+    .carrinho-title-menu {
+        flex-direction: column;
+    }
+
+    .carrinho-title-menu img {
+        width: 25px;
+    }
+
+    .white-box {
+        padding: 2rem 1rem;
+        margin: 0;
+    }
+
+    .cartoes {
+        display: grid;
+        justify-content: center;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        align-items: center;
+        gap: 1rem;
+        justify-items: center;
+    }
+
+    .cartoes img {
+        width: 40px;
+    }
+
+    .box-dados-pessoais img {
+        width: 40px;
+    }
+
+    .first-dados {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 1.5rem;
+    }
+
+    .second-dados {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        margin-left: -13px;
+        margin-bottom: 1.5rem;
+    }
+
+    .last-dados {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .first-dados figure {
+        margin-bottom: 1.5rem;
+    }
+
+    .titles-pages {
+        justify-content: space-between;
+    }
+
+    .product-section .produtos-description .bg-product {
+        height: 20rem;
+    }
+
 }

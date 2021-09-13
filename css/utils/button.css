@@ -43,3 +43,49 @@
     background: #fff;
     border: 1px solid #888888;
 }
+
+.finalizar-compra {
+    display: block;
+    width: 100%;
+    text-align: center;
+    height: 5rem;
+    line-height: 5rem;
+    background: #71bf44;
+    color: #fff;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    transition: all .3s ease-in-out;
+    font-weight: 500;
+}
+
+.finalizar-compra:hover {
+    border: 1px solid #71bf44;
+    color: #71bf44;
+    background: #fff;
+}
+
+.continuar-compra {
+    display: block;
+    width: 100%;
+    text-align: center;
+    height: 5rem;
+    line-height: 5rem;
+    background: #9ad3ce;
+    color: #35a79d;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    text-decoration: none;
+    transition: all .3s ease-in-out;
+    font-weight: 500;
+}
+
+.continuar-compra:hover {
+    opacity: .8;
+    color: #35a79d;
+}

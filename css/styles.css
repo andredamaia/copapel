@@ -10,6 +10,8 @@
 @import './pages/produtos-interna.css';
 @import './pages/tela-complementar.css';
 @import './pages/dados-pessoais.css';
+@import './pages/carrinho.css';
+@import './pages/lista-desejos.css';
 
 @import './utils/base.css';
 @import './utils/text.css';

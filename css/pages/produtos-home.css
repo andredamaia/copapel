@@ -41,7 +41,7 @@
     align-items: center;
 }
 
-.swiper-marcas { padding: 5rem 0;}
+.swiper-marcas { padding: 5rem 0; position: relative;}
 
 .swiper-marcas .swiper-slide div {
     display: flex;
@@ -61,4 +61,111 @@
 
 .swiper-button-prev::after, .swiper-button-next::after {
     font-size: 10px;
+}
+
+.bg-green {
+    background: #71bf44;
+    margin-bottom: 2rem;
+}
+
+.bg-green p {
+    color: #fff;
+}
+
+.superior-menu {
+    padding: 1rem 0 3rem;
+}
+
+form.search {
+    height: 100%;
+    padding: 0 2rem;
+    width: 100%;
+}
+
+form.search .input-search {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    align-items: center;
+    height: 100%;
+}
+
+form.search input {
+    height: 5rem;
+    line-height: 5rem;
+    padding: 0 2rem;
+    width: 100%;
+    font-size: 1.8rem;
+    color: #9d9d9d;
+    font-weight: 500;
+    border: 1px solid #9d9d9d;
+    border-radius: 0.5rem 0 0 0.5rem;
+    border-right: none;
+}
+
+form.search button {
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #9d9d9d;
+    border-left: none;
+    border-radius: 0 0.5rem 0.5rem 0;
+    padding: 0 1rem
+}
+
+figure.logo {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+figure.logo img {
+    width: 100%;
+}
+
+.login-perfil {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100%;
+}
+
+.login-perfil figure {
+    height: 5rem;
+    width: 5rem;
+    border: 1px solid #9d9d9d;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-bottom: 0;
+    margin-right: 1rem;
+}
+
+.login-perfil figure img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.login-perfil span strong {
+    font-size: 1.3rem;
+    color: #007067;
+    font-weight: 700;
+}
+
+.favorito-carrinho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.favorito-carrinho {
+    margin: 0 2rem;
+}
+
+.favorito-carrinho img {
+    margin: 0 1rem;
 }

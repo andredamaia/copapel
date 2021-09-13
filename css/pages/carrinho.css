@@ -1,0 +1,243 @@
+.box-white-carrinho {
+    background: #fff;
+    padding: 3.5rem 2rem;
+}
+
+.box-white-carrinho table {
+    width: 100%;
+}
+
+.box-white-carrinho table tr th {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #000000;
+    line-height: 1.9rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid #e6e6e6;
+    position: relative;
+    text-transform: uppercase;
+    padding-left: 1rem;
+}
+
+.box-white-carrinho table tr th:last-child:after {
+    display: none;
+}
+
+.box-white-carrinho table tr th::after {
+    position: absolute;
+    content: '';
+    right: 0;
+    width: 1px;
+    background: #e6e6e6;
+    height: 2.5rem;
+    bottom: 0;
+}
+
+.box-white-carrinho table tr td .bg-product {
+    border: 1px solid #e0e0e0;
+    height: 11rem;
+    width: 11rem;
+    margin-bottom: 0;
+}
+
+.box-white-carrinho table tr td .bg-product img {
+    width: 85%;
+}
+
+.product-carrinho-description {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 2rem 0;
+    border-right: 1px solid #e6e6e6;
+}
+
+.product-carrinho-description .produtos-info {
+    text-align: left;
+    margin-left: 2rem;
+}
+
+.carrinho-quantidade .botoes-adicionar {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.carrinho-quantidade {
+    position: relative;
+}
+
+.carrinho-quantidade::after {
+    position: absolute;
+    content: '';
+    width: 1px;
+    height: 100%;
+    background: #e6e6e6;
+    top: 0;
+    right: 0;
+}
+
+.carrinho-quantidade .quantidade {
+    width: 80%;
+    border-right: 1px solid #cacaca;
+    background: #f6f6f6;   
+}
+
+.carrinho-quantidade .botoes-adicionar a {
+    text-align: left;
+    width: 100%;
+    padding-left: 2rem;
+    margin-top: 1rem;
+    display: block;
+    text-decoration: none;
+    color: #ea747c;
+    font-size: 1.5rem;
+    line-height: 1.9rem;
+    text-transform: lowercase;
+}
+
+.table-valores .valores {
+    align-items: flex-start;
+}
+
+.table-valores .valores .preco-antigo {
+    font-size: 1.5rem;
+    color: #2a2a2a;
+}
+
+.table-line-gray {
+    background: #fafafa;
+}
+
+.carrinho-total-preco {
+    padding: 3rem;
+    text-align: center;
+}
+
+.carrinho-total-preco .checkout {
+    font-size: 2rem;
+    line-height: 4.8rem;
+    height: 4.8rem;
+    text-align: center;
+    border: 1px solid transparent;
+    border-radius: 1rem;
+    background: #bcbcbc;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+    display: block;
+    width: 100%;
+    color: #fff;
+}
+
+.carrinho-total-preco p {
+    font-size: 1.5rem;
+    line-height: 1.9rem;
+    color: #000;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+}
+
+.carrinho-total-preco .preco-novo {
+    font-size: 3.5rem;
+    line-height: 4.6rem;
+    color: #71bf44;
+    margin-bottom: 2rem;
+}
+
+.carrinho-total-preco .desconto {
+    line-height: 1.7rem;
+    border: 1px solid #007067;
+    border-radius: 5px;
+    text-align: center;
+    padding: 1rem;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: #007067;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.carrinho-total-preco .desconto img {
+    margin-right: 1rem;
+}
+
+p.frete {
+    text-align: left;
+}
+
+form.form-frete {
+    margin-bottom: 2rem;
+}
+
+form.form-frete .input-frete {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+form.form-frete .input-frete input {
+    height: 3.8rem;
+    line-height: 3.8rem;
+    border: 1px solid #a7a7a7;
+    border-radius: 5px;
+    color: #000;
+    background: #ffffff;
+    width: 85%;
+    font-size: 1.5rem;
+    padding: 0 1rem;
+}
+
+form.form-frete .input-frete input::placeholder {
+    color: #b7b7b7;
+}
+
+form.form-frete .input-frete input:focus {
+    outline: 0;
+}
+
+form.form-frete .input-frete button {
+    height: 3.8rem;
+    line-height: 3.8rem;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    color: #fff;
+    background: #71bf44;
+    width: 15%;
+    font-size: 1.5rem;
+    margin-left: 5px;
+    transition: all .3s ease-in-out;
+}
+
+form.form-frete .input-frete button:hover {
+    color: #71bf44;
+    background: #fff;
+    border: 1px solid #71bf44;
+}
+
+
+form.form-frete i {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    padding-left: 1rem;
+    margin: 2rem 0 4rem;
+    font-size: 1.3rem;
+    line-height: 1.9rem;
+    color: #939393;
+}
+
+form.form-frete i a {
+    padding-left: 5px;
+    font-size: 1.3rem;
+    line-height: 1.9rem;
+    color: #939393;
+    display: inline-block;
+    text-decoration: none;
+}
