@@ -47,45 +47,88 @@ body.pages-internas {
 }
 
 .produtos-quimicos { 
-    background: rgb(193,154,175);
-    background: linear-gradient(135deg, rgba(193,154,175,1) 0%, rgba(191,154,174,1) 25%, rgba(185,153,171,1) 50%, rgba(184,153,170,1) 75%);
+    background: rgb(166,53,128);
+    background: linear-gradient(180deg, rgba(166,53,128,1) 0%, rgba(155,46,117,1) 25%, rgba(141,38,103,1) 50%, rgba(116,26,80,1) 75%);
 }
 
 .higiene-pessoal { 
-    background: rgb(83,184,90);
-    background: linear-gradient(135deg, rgba(83,184,90,1) 0%, rgba(68,168,73,1) 25%, rgba(59,159,66,1) 50%, rgba(48,143,53,1) 75%);
+    background: rgb(85,187,92);
+    background: linear-gradient(180deg, rgba(85,187,92,1) 0%, rgba(75,175,80,1) 25%, rgba(64,165,70,1) 50%, rgba(47,142,52,1) 75%);
 }
 
 .equipamentos { 
-    background: rgb(155,213,214);
-    background: linear-gradient(135deg, rgba(155,213,214,1) 0%, rgba(155,213,214,1) 25%, rgba(154,211,212,1) 50%, rgba(153,206,208,1) 75%);
+    background: rgb(58,201,203);
+    background: linear-gradient(180deg, rgba(58,201,203,1) 0%, rgba(49,190,193,1) 25%, rgba(42,183,187,1) 50%, rgba(29,165,168,1) 75%);
 }
 
 .nao-tecidos { 
-    background: rgb(247,209,158);
-    background: linear-gradient(135deg, rgba(247,209,158,1) 0%, rgba(246,206,157,1) 25%, rgba(246,201,155,1) 50%, rgba(246,200,155,1) 75%);
+    background: rgb(252,193,73);
+    background: linear-gradient(180deg, rgba(252,193,73,1) 0%, rgba(251,185,65,1) 25%, rgba(250,170,51,1) 50%, rgba(249,154,40,1) 75%);
 }
 
 .maquinas { 
-    background: rgb(175,175,175);
-    background: linear-gradient(135deg, rgba(175,175,175,1) 0%, rgba(172,172,172,1) 25%, rgba(169,169,169,1) 50%, rgba(170,170,170,1) 75%);
+    background: rgb(128,128,128);
+    background: linear-gradient(180deg, rgba(128,128,128,1) 0%, rgba(115,115,115,1) 25%, rgba(104,104,104,1) 50%, rgba(75,75,75,1) 75%);
 }
 
 .gerenciamento-residuos { 
-    background: rgb(177,163,154);
-    background: linear-gradient(135deg, rgba(177,163,154,1) 0%, rgba(175,162,154,1) 25%, rgba(170,159,153,1) 50%, rgba(169,159,152,1) 75%);
+    background: rgb(131,95,53);
+    background: linear-gradient(180deg, rgba(131,95,53,1) 0%, rgba(110,76,43,1) 25%, rgba(97,64,34,1) 50%, rgba(78,49,25,1) 75%);
 }
 
 .tapetes { 
-    background: rgb(163,182,176);
-    background: linear-gradient(135deg, rgba(163,182,176,1) 0%, rgba(161,177,172,1) 25%, rgba(158,172,168,1) 50%, rgba(157,170,167,1) 75%);
+    background: rgb(92,142,129);
+    background: linear-gradient(180deg, rgba(92,142,129,1) 0%, rgba(81,129,115,1) 25%, rgba(69,115,103,1) 50%, rgba(52,91,80,1) 75%);
 }
 
 .descartaveis { 
-    background: rgb(147,180,206);
-    background: linear-gradient(135deg, rgba(147,180,206,1) 0%, rgba(147,176,202,1) 25%, rgba(147,171,196,1) 50%, rgba(147,170,195,1) 75%);
+    background: rgb(0,137,188);
+    background: linear-gradient(180deg, rgba(0,137,188,1) 0%, rgba(0,122,178,1) 25%, rgba(0,105,161,1) 50%, rgba(0,82,141,1) 75%);
 }
 
 .higiene-title {
     color: #249429;
+}
+
+.swiper-button-next:after, .swiper-button-prev:after {
+    font-size: 10px;
+    font-weight: 700;
+}
+
+.swiper-button-next, .swiper-button-prev {
+    width: 30px;
+    height: 30px;
+    color: #bababa;
+}
+
+#produtos-quimicos {
+    color: #9e3077;
+}
+
+#higiene-pessoal {
+    color: #4db354;
+}
+
+#equipamentos-acessorios {
+    color: #33c2c4;
+}
+
+#nao-tecidos {
+    color: #fbb63f;
+}
+
+#maquinas {
+    color: #6e6e6e;
+}
+
+#gerecnciameto-residuos {
+    color: #795531;
+}
+
+#tapetes {
+    color: #508074;
+}
+
+#descartaveis {
+    color: #0077af;
 }

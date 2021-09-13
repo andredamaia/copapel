@@ -10,6 +10,80 @@
     <link rel="stylesheet" href="css/styles.css" />
 </head>
 <body class="pages-internas">
+
+    <div class="bg-green text-center">
+        <p><strong>Aproveite! 10% OFF</strong> no primeiro pedido!</p>
+    </div>
+    
+    <div class="superior-menu">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-3 col-xl-3">
+                    <a href="#">
+                        <figure class="logo">
+                            <img src="images/logo.png" alt="">
+                        </figure>
+                    </a>
+                </div>
+
+                <div class="col-12 col-md-6 col-xl-6">
+                    <form action="post" class="search">
+                        <div class="input-search">
+                            <input type="text" placeholder="O que você procura?">
+
+                            <button type="submit">
+                                <img src="images/lupa.png" alt="">
+                            </button>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="col-12 col-md-3 col-xl-3">
+                    <div class="login-perfil">
+                        <figure>
+                            <img src="images/edcarlo.png" alt="">
+                        </figure>
+
+                        <span>
+                            <strong>
+                                Olá, Edcarlo
+
+                                <svg 
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                                    width="12px" height="5px">
+                                    <defs>
+                                    <filter id="Filter_0">
+                                    <feFlood flood-color="rgb(0, 112, 103)" flood-opacity="1" result="floodOut" />
+                                    <feComposite operator="atop" in="floodOut" in2="SourceGraphic" result="compOut" />
+                                    <feBlend mode="normal" in="compOut" in2="SourceGraphic" />
+                                    </filter>
+
+                                    </defs>
+                                    <g filter="url(#Filter_0)">
+                                    <path fill-rule="evenodd"  fill="rgb(135, 135, 135)"
+                                    d="M0.002,-0.002 L6.000,3.787 L11.998,-0.002 L11.998,1.212 L6.000,5.002 L0.002,1.212 L0.002,-0.002 Z"/>
+                                    </g>
+                                </svg>
+                            </strong>
+                        </span>
+
+                        <div class="favorito-carrinho">
+                            <div class="favorito">
+                                <a href="#"><img src="images/mini-heart.png" alt=""></a>
+                            </div>
+    
+                            <div class="carrinho">
+                                <a href="#"><img src="images/mini-carrinho.png" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
     <div class="menu-internas">
         <div class="container">
             <div class="row">
@@ -135,49 +209,49 @@
     
                             <a href="#">Veja todos as marcas</a>
                         </div>
+                    </div>
 
-                        <div class="swiper-container swiper-marcas">
-                            <div class="swiper-wrapper">
-                                <div class="swiper-slide">
-                                    <div>
-                                        <img src="images/higindoor.png" alt="" />
-                                    </div>
-                                </div>
-    
-                                <div class="swiper-slide">
-                                    <div>
-                                        <img src="images/lunes.png" alt="" />
-                                    </div>
-                                </div>
-    
-                                <div class="swiper-slide">
-                                    <div>
-                                        <img src="images/essenz.png" alt="" />
-                                    </div>
-                                </div>
-    
-                                <div class="swiper-slide">
-                                    <div>
-                                        <img src="images/performa.png" alt="" />
-                                    </div>
-                                </div>
-    
-                                <div class="swiper-slide">
-                                    <div>
-                                        <img src="images/sax.png" alt="" />
-                                    </div>
-                                </div>
-    
-                                <div class="swiper-slide">
-                                    <div>
-                                        <img src="images/essenz.png" alt="" />
-                                    </div>
+                    <div class="swiper swiper-marcas">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div>
+                                    <img src="images/higindoor.png" alt="" />
                                 </div>
                             </div>
 
-                            <div class="swiper-button-prev"></div>
-                            <div class="swiper-button-next"></div>
+                            <div class="swiper-slide">
+                                <div>
+                                    <img src="images/lunes.png" alt="" />
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div>
+                                    <img src="images/essenz.png" alt="" />
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div>
+                                    <img src="images/performa.png" alt="" />
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div>
+                                    <img src="images/sax.png" alt="" />
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div>
+                                    <img src="images/essenz.png" alt="" />
+                                </div>
+                            </div>
                         </div>
+
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
                     </div>
                 </div>
             </div>
@@ -192,7 +266,7 @@
                         <h6>Produtos da categoria</h6>
 
                         <div class="produtos">
-                            <div class="produtos-boX">
+                            <div class="produtos-box">
                                 <div class="row">
                                     <div class="col-12 col-md-3 col-xl-3">
                                         <div class="produtos-description">
@@ -597,6 +671,16 @@
                 nextEl: '.swiper-button-next',
                 prevEl: '.swiper-button-prev',
             },
+            breakpoints: {
+    320: {
+      slidesPerView: 1,
+      spaceBetween: 20
+    },
+    992: {
+      slidesPerView: 5,
+      spaceBetween: 40
+    }
+  }
         })
     </script>
 </body>
