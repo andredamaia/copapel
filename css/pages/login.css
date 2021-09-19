@@ -1,0 +1,121 @@
+.page-complementar {
+    padding: 6.5rem 0 3.5rem;
+}
+
+.page-complementar h2 {
+    font-size: 3rem;
+    line-height: 3.8rem;
+    margin-left: 3rem;
+    margin-bottom: 6.5rem;
+}
+
+form i {
+    margin-left: -30px;
+    cursor: pointer;
+}
+
+.box-form {
+    background: #fff;
+    padding: 4rem 8rem 8rem 8rem;
+    margin: 0 3rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    position: relative;
+}
+
+.box-form::after {
+    position: absolute;
+    content: '';
+    top: 40px;
+    left: 47%;
+    width: 1px;
+    height: 75%;
+    background: #e7e7e7;
+}
+
+.form-highlight {
+    text-align: right;
+}
+
+.highlight-input {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2.5rem;
+}
+
+.highlight-input input {
+    width: 29rem;
+    height: 4.5rem;
+    line-height: 4.5rem;
+    border: 1px solid #ebebeb;
+    border-radius: 5px;
+    font-size: 1.6rem;
+    padding: 0 2rem;
+    color: #808080;
+}
+
+.highlight-input input:focus {
+    outline: 0;
+}
+
+.highlight-input label {
+    font-size: 1.4rem;
+    margin-right: 2.5rem;
+    font-weight: 600;
+    color: #808080;
+}
+
+.form-highlight strong {
+    font-size: 1.4rem;
+    margin-bottom: 3rem;
+    display: block;
+    text-align: center;
+}
+
+.button-down {
+    text-align: left;
+    transform: translateX(65px);
+    font-size: 1.5rem;
+    color: #808080;
+}
+
+.button-down a { 
+    color: #808080;
+    transition: all .3s ease-in-out;
+}
+
+.button-down a:hover { 
+    color: #808080;
+}
+
+.uso-redes-sociais {
+    background: #fff;
+    margin: 0 3rem;
+    padding: 0 0 7rem;
+}
+
+.uso-redes-sociais p {
+    margin: 0;
+    font-size: 2.1rem;
+}
+
+.uso-redes-sociais .up-side {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.uso-redes-sociais small {
+    font-size: 1.4rem;
+    line-height: 1.6rem;
+    text-align: center;
+    margin-top: 1.5rem;
+    padding: 0 3rem;
+    display: flex;
+    display: block;
+}
+

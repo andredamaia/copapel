@@ -132,3 +132,69 @@ body.pages-internas {
 #descartaveis {
     color: #0077af;
 }
+
+.rodape {
+    padding: 5rem 3rem;
+}
+
+.box-gray-rodape {
+    padding: 0 2rem 0 4rem;
+}
+
+.rodape-formas-pagamento {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    margin-bottom: 2rem;
+}
+
+.box-rodape {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.box-rodape figure {
+    margin: 0 .75rem;
+}
+
+.box-rodape figure img { width: 100%;}
+
+.box-rodape figure:first-child {
+    margin-left: 0;
+}
+
+.rodape-infos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4rem 0;
+}
+
+.rodape-infos div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center
+}
+
+.rodape-infos div p { 
+    font-size: 1.6rem;
+    line-height: 1.8rem;
+    margin-bottom: 0;
+}
+
+.rodape-infos div a { 
+    text-decoration: none;
+}
+
+.rodape-infos div img {
+    margin-right: 1rem;
+    width: 15px;
+}
+
+.redes-sociais-rodape a img {
+    width: auto;
+}

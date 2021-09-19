@@ -102,3 +102,12 @@ h3.text-gray {
     font-weight: 800;
     margin: 0 3rem;
 }
+
+h6.rodape-title {
+    font-size: 1.8rem;
+    line-height: 1.6rem;
+    color: #878787;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin: 0;
+}
