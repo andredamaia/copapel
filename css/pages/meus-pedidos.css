@@ -1,0 +1,254 @@
+span.dark-green a {
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+    color: #007067;
+    font-weight: 800;
+    margin: 0 3rem;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    transition: all .3s ease-in-out;
+}
+
+span.dark-green a:hover {
+    opacity: .6;
+}
+
+span.dark-green a img {
+    margin-right: 1rem;
+}
+
+.tabela-pedidos {
+    width: 100%;
+}
+
+.tabela-pedidos tr {
+    border: 1px solid #dee2e6;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+}
+
+.tabela-pedidos tr th {
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+    color: #000;
+    padding: 1.5rem 0;
+    font-weight: 700;
+    
+
+}
+
+.tabela-pedidos tr td {
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+    color: #000;
+    padding: 2rem 0;
+    font-weight: 500;
+}
+
+.table-aprovado { color: #28a745 !important;}
+
+.timeline-pedidos {
+    padding: 9rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.timeline-pedidos .pedidos-stage {
+    height: 1.2rem;
+    width: 1.2rem;
+    border-radius: 50px;
+    background: #676767;
+    display: block;
+}
+
+.pedidos-entrega {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+
+.pedidos-entrega::after {
+    position: absolute;
+    content: '';
+    top: 5px;
+    left: 0;
+    height: 2px;
+    width: 100%;
+    background: #676767;
+}
+
+.pedidos-entrega::before {
+    position: absolute;
+    content: '';
+    top: 5px;
+    right: 100%;
+    height: 2px;
+    width: 100%;
+    background: #676767;
+}
+
+.pedidos-entrega:first-child::before {
+    width: 10%;
+}
+
+.pedidos-entrega:last-child::before {
+    width: 250%;
+    right: -30%;
+}
+
+.pedidos-entrega-description svg {
+    fill: #676767;
+}
+
+.pedidos-entrega-description span {
+    font-size: 1rem;
+    line-height: 1.1rem;
+}
+
+.pedidos-entrega-description div:last-child {
+    margin-left: 2rem;
+}
+
+.pedidos-entrega-description div:first-child {
+    margin-top: 1rem;
+}
+
+.totais-compras {
+    margin: 0 9rem 3rem;
+    padding: 3rem 1rem;
+    border: 1px solid #cccccc;
+    position: relative;
+}
+
+.totais {
+    padding: 0 2rem;
+    margin-bottom: 3rem;
+}
+
+.totais-compras::after {
+    position: absolute;
+    content: '';
+    width: 1px;
+    height: 85%;
+    background: #cccccc;
+    top: 25px;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+.totais strong {
+    font-size: 2.5rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid #cccccc;
+    margin-bottom: 2rem;
+    display: block;
+    color: #555555;
+}
+
+.subvalores {
+    padding-bottom: 1rem;
+}
+
+.subvalores div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.subvalores div:last-child { margin-bottom: 0;}
+
+.subvalores div span {
+    font-size: 1.7rem;
+    line-height: 2rem;
+    color: #555555;
+}
+
+.subtotal {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    border-top: 1px solid #cccccc;
+    padding-top: 2rem;
+}
+
+.subtotal strong {
+    display: initial;
+    border: none;
+    font-size: 2rem;
+    line-height: 2.5rem;
+}
+
+.notas-fiscais {
+    margin: 0 9rem 9rem;
+    padding: 3rem 4rem 6rem;
+    border: 1px solid #cccccc;
+    position: relative;
+}
+
+.notas-fiscais strong {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    display: block;
+    color: #555555;
+}
+
+.notas-fiscais div {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.notas-fiscais a {
+    display: inline-block;
+    margin-right: 1.5rem;
+    font-size: 1.6rem;
+    color: #000;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    transition: all .3s ease-in-out;
+}
+
+.notas-fiscais a:hover {
+    color: #000;
+}
+
+.notas-fiscais a img {
+    width: 20px;
+}
+
+.table-pagamentos {
+    width: 100%;
+}
+
+.table-pagamentos tr {
+    border: 1px solid #cccccc;
+    border-left: none;
+    border-right: none;
+}
+
+.table-pagamentos tr td {
+    padding: 2.5rem 0;
+    font-size: 1.7rem;
+
+}
+
+.button-detalhes.pagamentos {
+    background: #007067;
+    display: flex;
+    align-items: center;
+}
+
+.button-detalhes.pagamentos svg {
+    margin-right: 5px;
+}

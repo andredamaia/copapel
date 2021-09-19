@@ -10,6 +10,51 @@
     }
 }
 
+@media (max-width: 1200px) {
+    .button-detalhes {
+        font-size: 1.4rem;
+    }
+
+    .box-form {
+        padding: 4rem;
+    }
+
+    .rodape-infos div p {
+        font-size: 1.3rem;
+        line-height: 1.5rem;
+    }
+
+    .button-duvidas {
+        font-size: 1.3rem;
+        line-height: 1.5rem;
+    }
+}
+
+@media (max-width: 992px) {
+
+    .button-detalhes {
+        padding: 0 2rem;
+    }
+
+    .box-form {
+        padding: 4rem 0;
+    }
+
+    .box-form::after {
+        display: none;
+    }
+
+    .rodape-infos div p {
+        font-size: 1.1rem;
+        line-height: 1.3rem;
+    }
+
+    .button-duvidas {
+        font-size: 1.1rem;
+        line-height: 1.3rem;
+    }
+}
+
 @media (max-width: 769px) {
     img {
         width: 100%;
@@ -545,4 +590,251 @@
         height: 20rem;
     }
 
+    .meus-pedidos .titles-pages {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 3rem;
+    }
+
+    .meus-pedidos .titles-pages .dark-green a img {
+        width: 15px;
+    }
+
+    .meus-pedidos .titles-pages .dark-green a {
+        font-size: 1.3rem;
+        margin: 0;
+        line-height: 1.5rem;
+        justify-content:center;
+    }
+
+    .tabela-pedidos tr th {
+        padding: 1.5rem;
+        width: 100% !important;
+    }
+
+    .tabela-pedidos tr td {
+        padding: 1.5rem;
+        width: 100% !important;
+    }
+
+    .totais-compras {
+        margin: 0;
+        padding: 1rem;
+    }
+
+    .totais-compras::after {
+        display: none;
+    }
+
+    .totais strong {
+        font-size: 2rem;
+        padding-bottom: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .notas-fiscais {
+        margin: 2rem 0 0 0;
+        padding: 2rem;
+    }
+
+    .button-detalhes {
+        width: 130px;
+    }
+
+    .table-pagamentos tr td {
+        width: 100%;
+        padding: 2.5rem 4rem 2.5rem 0;
+    }
+
+    .box-form {
+        padding: 2rem 1rem 0;
+        margin: 0 1rem;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .highlight-input {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 1rem;
+        transform: translate(0) !important;
+    }
+
+    .highlight-input input {
+        width: 100%;
+    }
+
+    .button-down {
+        transform: translateX(0) !important;
+        margin-bottom: 1.5rem;
+    }
+
+    .uso-redes-sociais {
+        margin: 0 1rem !important;
+        padding: 2rem 1rem !important;
+    }
+
+    .uso-redes-sociais .up-side {
+        flex-direction: column;
+    }
+
+    .uso-redes-sociais p {
+        font-size: 1.6rem;
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+
+    .button-facebook {
+        width: 100%;
+        margin: 0 0 1rem 0;
+    }
+
+    .button-google {
+        width: 100%;
+        margin: 0 0 1rem 0;
+    }
+
+    .uso-redes-sociais small {
+        line-height: 2rem;
+        padding: 0 1rem;
+    }
+
+    .page-complementar {
+        padding: 3rem 0;
+    }
+
+    .page-complementar h2 {
+        font-size: 2rem;
+        line-height: 3rem;
+        margin-left: 1rem;
+        margin-bottom: 2rem;
+    }
+
+    .form-highlight strong {
+        margin-bottom: 1rem;
+    }
+
+    .rodape-infos {
+        flex-direction: column;
+        padding: 2rem 0;
+    }
+
+    .rodape-formas-pagamento {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+        margin-bottom: 0;
+    }
+
+    .box-gray-rodape {
+        padding: 0;
+        text-align: center;
+    }
+
+    h6.rodape-title {
+        font-size: 1.6rem;
+        line-height: 1.4rem;
+        margin-bottom: 2rem;
+    }
+
+    .rodape-infos div {
+        margin-bottom: 1rem;
+    }
+    .rodape {
+        padding: 2rem;
+    }
+
+    .rodape-infos div p {
+        font-size: 1.5rem;
+        line-height: 1.8rem;
+    }
+
+    .box-gray {
+        height: auto;
+        grid-template-columns: 1fr;
+    }
+
+    .products-internas {
+        flex-direction: column;
+    }
+
+    .product-section .produtos-description .adicionar {
+        flex-direction: row;
+        height: 4.8rem;
+    }
+
+    .product-content-title a img {
+        width: auto;
+    }
+
+    .product-content-name p {
+        font-size: 1.6rem;
+        line-height: 2rem;
+    }
+
+    .product-content-icone {
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 1rem;
+        margin-bottom: 2rem;
+    }
+
+    .box-icone img {
+        width: auto;
+    }
+
+    .product-content-description {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+        margin-bottom: 2rem;
+    }
+
+    .product-content-description .box-description {
+        padding: 0 1rem;
+    }
+
+    .box-gray-left {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .mini-box {
+        padding: 1.5rem;
+    }
+
+    .mini-box img {
+        width: auto;
+    }
+
+    .mini-box a span {
+        margin-bottom: 1rem;
+    }
+
+    .box-gray-right {
+        margin-left: 0;
+    }
+
+    .box-whatsapp img, .box-telefone img {
+        width: auto;
+    }
+
+    .big-box {
+        padding: 1.5rem;
+    }
+
+    .sinais img {
+        width: auto;
+    }
+
+    .resultado {
+        text-align: center;
+        margin-top: 1.5rem;
+    }
+
+    .button-finalizar {
+        width: 100%;
+    }
+
+    .button-finalizar img {
+        width: auto;
+        margin-left: 1rem;
+    }
 }

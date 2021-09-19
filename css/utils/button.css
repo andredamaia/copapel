@@ -89,3 +89,97 @@
     opacity: .8;
     color: #35a79d;
 }
+
+.button-detalhes {
+    height: 3rem;
+    line-height: 3rem;
+    font-size: 1.6rem;
+    color: #fff;
+    background: #8c8c8c;
+    transition: all .3s ease-in-out;
+    display: block;
+    border: 1px solid transparent;
+    border-radius: 50px;
+    padding: 0 4rem;
+}
+
+.button-detalhes:hover {
+    opacity: .8;
+}
+
+.button-green {
+    height: 4.5rem;
+    line-height: 4.5rem;
+    width: 29rem;
+    border: 1px solid transparent;
+    background: #58c22e;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 2.5rem;
+    transition: all .3s ease-in-out;
+}
+
+.button-green:hover {
+    background: #fff;
+    color: #58c22e;
+    border: 1px solid #58c22e;
+}
+
+.button-facebook {
+    height: 4rem;
+    line-height: 4rem;
+    font-size: 2rem;
+    color: #fff;
+    background: #4267b2;
+    padding: 0 2rem;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 16rem;
+    text-decoration: none;
+    transition: all .3s ease-in-out;
+    margin: 0 1rem;
+}
+
+.button-facebook:hover {
+    color: #fff;
+}
+
+.button-google {
+    height: 4rem;
+    line-height: 4rem;
+    font-size: 2rem;
+    color: #000;
+    background: #f2f2f2;
+    padding: 0 2rem;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 16rem;
+    text-decoration: none;
+    transition: all .3s ease-in-out;
+    margin: 0 1rem;
+}
+
+.button-google:hover {
+    color: #000;
+}
+
+.button-duvidas {
+    font-size: 1.6rem;
+    line-height: 1.8rem;
+    padding: 1rem;
+    border: 1px solid #bababa;
+    color: rgb(77, 77, 77);
+    transition: all .3s ease-in-out;
+}
+
+.button-duvidas:hover {
+    background: #bababa;
+    color: #fff;
+    border: 1px solid transparent;
+}
