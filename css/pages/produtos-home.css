@@ -41,7 +41,10 @@
     align-items: center;
 }
 
-.swiper-marcas { padding: 5rem 0; position: relative;}
+.swiper-marcas-holder {
+    padding: 0 5rem;
+    position: relative;
+}
 
 .swiper-marcas .swiper-slide div {
     display: flex;
@@ -88,6 +91,10 @@ form.search .input-search {
     justify-content: center; 
     align-items: center;
     height: 100%;
+}
+
+.input-search img {
+    mix-blend-mode: multiply;
 }
 
 form.search input {

@@ -72,6 +72,10 @@
     opacity: 1;
 }
 
+.product-content-title a img {
+    margin-left: 1rem;
+}
+
 .product-content-title a:hover {
     opacity: .7;
 }
@@ -230,7 +234,11 @@
     text-transform: uppercase;
 }
 
-.match-toggle { margin: 0; }
+.match-toggle { 
+    margin: 0; 
+    background: rgb(243,243,243);
+    background: linear-gradient(0deg, rgba(243,243,243,1) 0%, rgba(235,235,235,1) 100%);
+}
 .match-toggle.active .toggle-header i { transform: rotate(180deg); }
 .match-toggle.active .toggle-body { display: block; }
 
@@ -239,9 +247,16 @@
     color: #000; 
     cursor: pointer; 
     padding: 2.5rem;
-    background: linear-gradient(180deg, rgba(237,237,237,1) 0%, rgba(239,239,239,1) 25%, rgba(242,242,242,1) 50%, rgba(243,243,243,1) 75%);
+    background-image: url(../../images/arrow-down.png);
+    background-position: right 15px center;
+    background-repeat: no-repeat;
 }
-.match-toggle.active .toggle-header { background: #eeeeee;}
+.match-toggle.active .toggle-header { 
+    background: #eeeeee;
+    background-image: url(../../images/arrow-up.png);
+    background-position: right 15px center;
+    background-repeat: no-repeat;
+}
 
 .match-toggle.active {transition: all .3s ease-in-out;}
 
@@ -324,6 +339,7 @@
     border-radius: 50px;
     border: 1px solid #878787;
     position: relative;
+    background: #fff;
 }
 
 .produtos-up-side {
@@ -379,7 +395,7 @@
 }
 
 .produtos-down-side .valores {
-    margin: 2.5rem 4rem 2.5rem 0;
+    margin: 1.5rem 4rem 2.5rem 0;
 }
 
 .produtos-down-side .quantidade {
@@ -456,4 +472,48 @@
     right: -35px;
 }
 
+.swiper-produtos-holder {
+    position: relative;
+}
 
+.swiper-produtos-holder .swiper-button-prev {
+    left: -60px;
+}
+
+.swiper-produtos-holder .swiper-button-next {
+    right: -60px;
+}
+
+.mh-50 {
+    max-height: 500px;
+}
+.oh{
+    overflow: hidden;
+}
+
+.aproveite-compre {
+    margin-bottom: 6rem;
+}
+
+.produtos-vertical .produtos-carrinho-img {
+    max-width: 8rem;
+}
+
+.swiper-produtos-vertical-holder {
+    position: relative;
+}
+
+.swiper-produtos-vertical-holder .swiper-vertical-prev {
+    position: absolute;
+    top: -30px;
+    transform: rotate(90deg);
+    left: 50%;
+}
+
+.swiper-produtos-vertical-holder .swiper-vertical-next {
+    position: absolute;
+    bottom: -40px;
+    transform: rotate(90deg);
+    left: 50%;
+    top: inherit;
+}

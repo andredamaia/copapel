@@ -37,7 +37,6 @@
 }
 
 .page-infos span { 
-    padding: 0 3rem;
     display: block;
     margin-bottom: 3rem;
 }
@@ -118,15 +117,14 @@
 .produtos-description {
     position: relative;
     margin-bottom: 5rem;
-    width: 90%;
 }
 
 .produtos-description::after {
     content: '';
     position: absolute;
-    right: -24px;
+    right: -22px !important;
     top: 30px;
-    border: 1px dashed #d2d2d2;
+    border-right: 2px dashed #d2d2d2;
     height: 325px;
     opacity: .6;
 }
@@ -138,6 +136,7 @@
     width: 100%;
     height: 25rem;
     margin-bottom: 2rem;
+    margin-left: 2rem;
 }
 
 .bg-product figure {
@@ -278,17 +277,33 @@
     margin: 0 1rem;
 }
 
-.botoes-pagina a:hover {
+.botoes-pagina a:hover, .botoes-pagina a.active {
     background: #6dbc45;
     border-radius: 0.5rem;
     color: #fff;
+    box-shadow: 0 5px 10px rgba(0 0 0 / 10%);
 }
 
-#produtos-quimicos .sidebar-title, #produtos-quimicos .list-title {
-    color: #761248;
-}
+#produtos-quimicos .sidebar-title, #produtos-quimicos .list-title { color: #9e3077; }
+#produtos-quimicos .sidebar-list ul { background: #9e307710; }
 
-#produtos-quimicos .sidebar-list ul {
-    background: rgba(118, 18, 72, 0.07);
-}
+#equipamentos-e-acessorios .sidebar-title, #equipamentos-e-acessorios .list-title { color: #33c2c4; }
+#equipamentos-e-acessorios .sidebar-list ul { background: #33c2c410; }
 
+#nao-tecidos .sidebar-title, #nao-tecidos .list-title { color: #fbb63f; }
+#nao-tecidos .sidebar-list ul { background: #fbb63f10; }
+
+#maquinas .sidebar-title, #maquinas .list-title { color: #6e6e6e; }
+#maquinas .sidebar-list ul { background: #6e6e6e10; }
+
+#gerenciamento-de-residuos .sidebar-title, #gerenciamento-de-residuos .list-title { color: #795531; }
+#gerenciamento-de-residuos .sidebar-list ul { background: #79553110; }
+
+#tapetes-e-barreiras-de-contencao .sidebar-title, #tapetes-e-barreiras-de-contencao .list-title { color: #508074; }
+#tapetes-e-barreiras-de-contencao .sidebar-list ul { background: #50807410; }
+
+#descartaveis .sidebar-title, #descartaveis .list-title { color: #0077af; }
+#descartaveis .sidebar-list ul { background: #0077af10; }
+
+#promo .sidebar-title, #promo .list-title { color: #9e3077; }
+#promo .sidebar-list ul { background: #9e307710; }

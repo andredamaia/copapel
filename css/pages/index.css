@@ -188,6 +188,8 @@
 
 .time-description span {
     font-size: 6rem;
+    line-height: 6.4rem;
+    margin-bottom: .5rem;
     color: #71bf44;
     font-weight: 300;
     display: block;
@@ -195,6 +197,7 @@
 
 .time-description p {
     margin-bottom: 0;
+    line-height: 2rem;
     font-weight: 600;
 }
 
@@ -667,6 +670,10 @@
     top: 0;
     right: 0;
     z-index: 10;
+}
+
+.swiper-timeline .swiper-wrapper {
+    padding-bottom: 5rem;
 }
 
 .swiper-container-horizontal>.swiper-scrollbar {

@@ -109,7 +109,7 @@ body.pages-internas {
     color: #4db354;
 }
 
-#equipamentos-acessorios {
+#equipamentos-e-acessorios {
     color: #33c2c4;
 }
 
@@ -121,11 +121,11 @@ body.pages-internas {
     color: #6e6e6e;
 }
 
-#gerecnciameto-residuos {
+#gerenciamento-de-residuos {
     color: #795531;
 }
 
-#tapetes {
+#tapetes-e-barreiras-de-contencao {
     color: #508074;
 }
 
@@ -197,4 +197,5 @@ body.pages-internas {
 
 .redes-sociais-rodape a img {
     width: auto;
+    mix-blend-mode: multiply;
 }
