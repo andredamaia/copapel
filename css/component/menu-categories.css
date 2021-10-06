@@ -307,3 +307,113 @@
 
 #promo .sidebar-title, #promo .list-title { color: #9e3077; }
 #promo .sidebar-list ul { background: #9e307710; }
+
+
+.categoria-menu .header-sublink { padding-bottom: 10px; position: relative; }
+.categoria-menu .header-sublink::after {
+    content: '';
+    width: 0;
+    height: 1px;
+    background: #fff;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    transition: all .3s ease-in-out;
+}
+.categoria-menu .header-sublink:hover::after { width: 100%; }
+
+.extra-links { margin-bottom: 15px; }
+.extra-links .header-sublink { margin-left: 20px; }
+.extra-links .header-sublink span { color: #348C34; font-size: 14px; text-transform: uppercase; }
+
+.categoria-menu span { position: relative; display: inline-block; }
+.categoria-menu span:hover .list-dropdown { display: block; }
+.categoria-menu .list-dropdown {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    padding: 0;
+    box-shadow: 0 5px 30px rgba(0,0,0,.1);
+    margin: 0;
+    display: none;
+    z-index: 100;
+}
+.categoria-menu .list-dropdown li {
+    list-style: none;
+    text-align: left;
+    padding: 1.5rem 0;
+    line-height: 1.6rem;
+    border-bottom: 1px dotted #ffffff;
+    transition: all .3s ease-in-out;
+}
+.categoria-menu .list-dropdown li:hover {
+    border-bottom: 1px dotted #ffffff;
+}
+
+.categoria-menu .list-dropdown li a {
+    display: block;
+    color: #ffffff;
+    text-transform: none;
+    letter-spacing: 0;
+    font-size: 1.2rem;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    transition: all .3s ease-in-out;
+    margin-left: 1rem;
+}
+.categoria-menu .list-dropdown li:hover a { 
+    color: #ffff; 
+    text-decoration: underline;
+}
+
+.drop-contato .list-dropdown { left: inherit; right: 0; }
+
+.higiene-header {
+    background: #4db354;
+}
+
+.produtos-quimicos-header {
+    background: #9e3077;
+}
+
+.equipamentos-header {
+    background: #33c2c4;
+}
+
+.nao-tecidos-header {
+    background: #fbb63f;
+}
+
+.maquinas-header {
+    background: #6e6e6e;
+}
+
+.residuos-header {
+    background: #795531;
+}
+
+.tapetes-header {
+    background: #508074;
+}
+
+.descartaveis-header {
+    background: #0077af;
+}
+
+.promo-header {
+    width: 100%;
+    height: 6rem;
+    overflow: hidden;
+    padding: 0;
+}
+
+.promo-header img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+
