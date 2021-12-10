@@ -14,6 +14,13 @@
 @import './pages/lista-desejos.css';
 @import './pages/meus-pedidos.css';
 
+@import './pages/blog.css';
+@import './pages/blog-internas.css';
+@import './pages/info-clientes.css';
+@import './pages/montagem-plano.css';
+@import './pages/conclusao.css';
+
+
 @import './utils/base.css';
 @import './utils/text.css';
 @import './utils/button.css';

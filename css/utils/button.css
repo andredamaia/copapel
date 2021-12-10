@@ -183,3 +183,22 @@
     color: #fff;
     border: 1px solid transparent;
 }
+
+button.white-green {
+    height: 5rem;
+    line-height: 5rem;
+    border: 1px solid #89cc39;
+    color: #89cc39;
+    background: transparent;
+    border-radius: 4rem;
+    width: 22rem;
+    text-align: center;
+    font-size: 2rem;
+    text-transform: uppercase;
+    transition: all .3s ease-in-out;
+}
+
+button.white-green:hover {
+    background: #89cc39;
+    color: #fff;
+}

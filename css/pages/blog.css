@@ -1,0 +1,244 @@
+.blog-highlight {
+    padding: 5rem 0 2.5rem;
+}
+
+.blog-notice {
+    display: grid;
+    grid-template-columns: 1.8fr 1fr;
+}
+
+.blog-notice a {
+    text-decoration: none;
+    position: relative;
+    width: 100%;
+}
+
+.big-notice figure {
+    width: 100%;
+    height: 40rem;
+    margin-bottom: 0;
+}
+
+.big-notice figure img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.big-notice span {
+    position: absolute;
+    bottom: 2.5rem;
+    left: 2.5rem;
+    font-size: 2.4rem;
+    line-height: 2.8rem;
+    color: #fff;
+    font-weight: 500;
+    padding-right: 30rem;
+}
+
+.small-notice {
+    text-decoration: none;
+    position: relative;
+    width: 100%;
+}
+
+.small-notice figure {
+    width: 100%;
+    height: 20rem;
+    margin-bottom: 0;
+}
+
+.small-notice figure img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.small-notice span {
+    position: absolute;
+    bottom: 2.5rem;
+    left: 2.5rem;
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+    color: #fff;
+    font-weight: 500;
+    padding-right: 15rem;
+}
+
+.another-post {
+    padding: 2rem 0;
+}
+
+.another-post-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.another-post-title strong {
+    font-size: 3.5rem;
+    line-height: 4rem;
+    color: #00746c;
+    font-weight: 800;
+    position: relative;
+    padding-bottom: 1.5rem;
+}
+
+.another-post-title strong::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 5rem;
+    height: 2px;
+    background: #96d06a;
+}
+
+.another-post-title select {
+    height: 4rem;
+    line-height: 4rem;
+    padding: 0 1rem;
+    border: 1px solid #96d06a;
+    border-radius: 0.5rem;
+    width: 40rem;
+    color: #00746c;
+    font-size: 1.8rem;
+    appearance: none;
+}
+
+.another-post-title select:focus {
+    outline: 0;
+}
+
+.post-selecter {
+    position: relative;
+}
+
+.post-arrow {
+    border-left: 1px solid #e5e4e2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 30px;
+    position: absolute;
+    top: 5px;
+    right: 0;
+}
+
+.post-destaque {
+    padding: 3rem 0;
+    margin-right: 2rem;
+}
+
+.post-destaque-img {
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+    margin-bottom: 2.5rem;
+}
+
+.post-destaque-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.post-destaque-title h5 {
+    font-weight: 600;
+    line-height: 3.6rem;
+    color: #00746c;
+}
+
+.post-destaque-description p {
+    font-size: 1.5rem;
+    line-height: 2.3rem;
+    color: #000;
+    font-weight: 600;
+    margin-bottom: 2.5rem;
+}
+
+.post-destaque-date {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    position: relative;
+}
+
+.post-destaque-date::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 1rem;
+    right: 0;
+    margin: auto;
+    height: 1px;
+    width: 65%;
+    background: #d0d0d0;
+}
+
+.postagem-date {
+    display: inline-block;
+    font-size: 1.7rem;
+    line-height: 2.5rem;
+    color: #96d06a;
+}
+
+.leia-mais {
+    display: inline-block;
+    font-size: 1.7rem;
+    line-height: 2.5rem;
+    color: #00746c;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.leia-mais:hover {
+    color: #00746c;
+}
+
+.small-destaques {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0 2rem;
+}
+
+.small-destaques .post-destaque {
+    margin: 0;
+    padding: 3rem 0 0;
+}
+
+.small-destaques .post-destaque-title h5 {
+    font-size: 1.7rem;
+    line-height: 2.2rem;
+    margin-bottom: 1rem;
+}
+
+.small-destques .post-destaque-description p {
+    font-size: 1.4rem;
+    line-height: 2rem;
+    margin-bottom: 1rem;
+}
+
+.small-destaques .post-destaque-img {
+    height: 130px;
+    margin-bottom: 1.5rem;
+}
+
+.small-destaques .postagem-date {
+    font-size: 1.5rem;
+    line-height: 2.2rem;
+}
+
+.small-destaques .leia-mais {
+    font-size: 1.5rem;
+    line-height: 2.2rem;
+}
+
+.small-destaques .post-destaque-date::after {
+    left: 10px;
+    width: 40%;
+}
