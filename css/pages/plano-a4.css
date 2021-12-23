@@ -1,0 +1,286 @@
+.page {
+    height: 100vh;
+    padding: 1rem !important;
+}
+
+.page.vertical {
+    height: auto;
+}
+
+.plano-a4 {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 1fr;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.plano-a4 .a4-equipamentos-epi {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+}
+
+.plano-a4 .a4-equipamentos {
+    width: 100%;
+    background: #f3e5e3;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    padding: 1rem 1rem 0 1rem;
+}
+
+.plano-a4 .a4-equipamentos strong {
+    font-size: 2.1rem;
+    line-height: 2.5rem;
+    color: #a05d4d;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+    display: block;
+}
+
+.plano-a4 .a4-equipamentos .grid-equipamentos {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1rem;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.plano-a4 .a4-equipamentos div{
+    width: 50px;
+    height: 50px;
+}
+
+.plano-a4 .a4-equipamentos div img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.plano-a4 .a4-epi {
+    width: 100%;
+    background: #ffecd6;
+    border-radius: 5px;
+    padding: 1rem 1rem 0 1rem;
+}
+
+.plano-a4 .a4-epi strong {
+    font-size: 2.1rem;
+    line-height: 2.5rem;
+    color: #f6981c;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+    display: block;
+}
+
+.plano-a4 .a4-epi .grid-epi {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1rem;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+}
+
+.plano-a4 .a4-epi div{
+    width: 50px;
+    height: 50px;
+}
+
+.plano-a4 .a4-epi div img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.a4-produto {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    gap: 1rem;
+    padding: 1.5rem;
+    background: #dddfd0;
+    border-radius: 5px;
+}
+
+.a4-produto figure {
+    width: 15rem;
+    height: 15rem;
+    overflow: hidden;
+}
+
+.a4-produto figure img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.a4-produto-description p {
+    margin-bottom: 2rem;
+    line-height: 2.2rem;
+}
+
+.a4-produto-description strong {
+    font-size: 1.4rem;
+    line-height: 2.3rem;
+    font-weight: 700;
+    color: #686b57;
+}
+
+.a4-produto-description .diluicao-produto {
+    font-size: 2rem;
+    color: #686b57;
+    font-weight: 700;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.a4-produto-description .diluicao-produto strong {
+    font-size: 4.5rem;
+    color: #686b57;
+    font-weight: 700;
+    transform: translateX(-3rem);
+}
+
+.a4-description {
+    background: #f5f5f5;
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+.a4-description strong {
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+    color: #999999;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    display: block;
+}
+
+.a4-description p {
+    margin-bottom: 0;
+    font-size: 1.3rem;
+    line-height: 1.6rem;
+    font-weight: 700;
+    color: #525252;
+}
+
+.plano-a4-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0 3rem;
+}
+
+.plano-a4-title .text-light-blue {
+    font-size: 3rem;
+    line-height: 3.5rem;
+}
+
+.plano-a4-title .img-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.plano-a4-title .img-title img {
+    width: 130px;
+    margin-left: 3rem;
+}
+
+.plano-a4.vertical-mode {
+    grid-template-columns: 1.5fr 1fr;
+    margin-bottom: 0.5rem;
+}
+
+
+.vertical .plano-a4-title {
+    padding: 1rem 0;
+    justify-content: center;
+}
+
+.vertical-mode .a4-produto {
+    padding: 1rem;
+    height: 14rem;
+}
+
+.vertical-mode .plano-a4 .a4-equipamentos strong {
+    font-size: 1.7rem;
+    line-height: 2rem;
+}
+
+.vertical-mode .plano-a4 .a4-equipamentos div {
+    width: 45px;
+    height: 45px;
+}
+
+.vertical-mode .a4-equipamentos, .vertical-mode .a4-epi {
+    height: 6.5rem;
+}
+
+.vertical-mode .a4-equipamentos strong {
+    font-size: 1.3rem;
+    line-height: 1rem;
+}
+
+.vertical-mode .grid-equipamentos {
+    margin-bottom: 0;
+}
+
+.vertical-mode .grid-equipamentos div {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 0;
+}
+
+.vertical-mode .a4-epi strong {
+    font-size: 1.3rem;
+    line-height: 1rem;
+    margin-bottom: 0;
+}
+
+.vertical-mode .grid-epi div {
+    width: 40px;
+    height: 40px;
+    margin-right: 1rem;
+}
+
+.vertical-mode .a4-equipamentos-epi .grid-equipamentos {
+    height: auto;
+}
+
+.a4-description.vertical-mode {
+    margin-bottom: .5rem;
+}
+
+.vertical-mode .a4-description p {
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+}
+
+.plano-a4.vertical-mode .a4-produto figure {
+    width: 12rem;
+    height: 12rem;
+}
+
+.vertical-mode .a4-produto-description p {
+    margin-bottom: 0.8rem;
+}
+
+.a4-description strong {
+    font-size: 1.4rem;
+    line-height: 1.5rem;
+}
+
+.a4-description p {
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+}

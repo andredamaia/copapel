@@ -17,8 +17,10 @@
 @import './pages/blog.css';
 @import './pages/blog-internas.css';
 @import './pages/info-clientes.css';
+@import './pages/3-estagios.css';
 @import './pages/montagem-plano.css';
 @import './pages/conclusao.css';
+@import './pages/plano-a4.css';
 
 
 @import './utils/base.css';

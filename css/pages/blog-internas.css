@@ -21,6 +21,11 @@
 .internas-redes-sociais a {
     display: inline-block;
     margin-right: .5rem;
+    transition: all .3s ease-in-out;
+}
+
+.internas-redes-sociais a:hover {
+    opacity: .6;
 }
 
 .noticia-interna-big-img {

@@ -21,11 +21,11 @@
     line-height: 4rem;
     border-radius: 4rem;
     border: 1px solid #5e9c9b;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     color: #5e9c9b;
     text-decoration: none;
     text-align: center;
-    padding: 0 6rem;
+    padding: 0 4rem;
     transition: all .3s ease-in-out;
     text-transform: uppercase;
 }
@@ -175,4 +175,8 @@
 .montagem-box.description-box.pedidos-produtos strong {
     font-size: 2.7rem;
     text-transform: uppercase;
+}
+
+.box-visualizar-pedidos img {
+    width: 100px;
 }
